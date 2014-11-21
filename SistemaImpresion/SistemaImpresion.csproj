@@ -57,6 +57,34 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\SistemaImpresiones.mdf" />
+    <Content Include="App_Data\SistemaImpresiones_log.ldf">
+      <DependentUpon>SistemaImpresiones.mdf</DependentUpon>
+    </Content>
+    <Content Include="Plantilla\css\font-awesome.min.css" />
+    <Content Include="Plantilla\css\ie\html5shiv.js" />
+    <Content Include="Plantilla\css\ie\PIE.htc" />
+    <Content Include="Plantilla\css\ie\v8.css" />
+    <Content Include="Plantilla\css\skel.css" />
+    <Content Include="Plantilla\css\style-large.css" />
+    <Content Include="Plantilla\css\style-medium.css" />
+    <Content Include="Plantilla\css\style-small.css" />
+    <Content Include="Plantilla\css\style-xlarge.css" />
+    <Content Include="Plantilla\css\style-xsmall.css" />
+    <Content Include="Plantilla\css\style.css" />
+    <Content Include="Plantilla\fonts\fontawesome-webfont.svg" />
+    <Content Include="Plantilla\images\avatar.jpg" />
+    <Content Include="Plantilla\images\banner.jpg" />
+    <Content Include="Plantilla\images\pic01.jpg" />
+    <Content Include="Plantilla\images\pic02.jpg" />
+    <Content Include="Plantilla\images\pic03.jpg" />
+    <Content Include="Plantilla\index.html" />
+    <Content Include="Plantilla\js\init.js" />
+    <Content Include="Plantilla\js\jquery.min.js" />
+    <Content Include="Plantilla\js\jquery.scrolly.min.js" />
+    <Content Include="Plantilla\js\jquery.scrollzer.min.js" />
+    <Content Include="Plantilla\js\skel-layers.min.js" />
+    <Content Include="Plantilla\js\skel.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -70,6 +98,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Main.Master" />
+    <Content Include="Plantilla\fonts\fontawesome-webfont.eot" />
+    <Content Include="Plantilla\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Plantilla\fonts\fontawesome-webfont.woff" />
+    <Content Include="Plantilla\fonts\FontAwesome.otf" />
+    <Content Include="Plantilla\sass\ie\v8.scss" />
+    <Content Include="Plantilla\sass\style-large.scss" />
+    <Content Include="Plantilla\sass\style-medium.scss" />
+    <Content Include="Plantilla\sass\style-small.scss" />
+    <Content Include="Plantilla\sass\style-xlarge.scss" />
+    <Content Include="Plantilla\sass\style-xsmall.scss" />
+    <Content Include="Plantilla\sass\style.scss" />
+    <Content Include="Plantilla\sass\_mixins.scss" />
+    <Content Include="Plantilla\sass\_vars.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -77,6 +118,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

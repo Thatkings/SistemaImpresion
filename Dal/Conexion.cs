@@ -9,7 +9,7 @@ namespace Data
 {
     public class Conexion
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\TeacherControl.mdf; Integrated security = true;");
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\SistemaImpresiones.mdf; Integrated security = true;");
         
         public bool EjecutarDB(string Codigo)
         {
