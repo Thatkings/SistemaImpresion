@@ -61,56 +61,65 @@
     <Content Include="App_Data\SistemaImpresiones_log.ldf">
       <DependentUpon>SistemaImpresiones.mdf</DependentUpon>
     </Content>
-    <Content Include="Plantilla\css\font-awesome.min.css" />
-    <Content Include="Plantilla\css\ie\html5shiv.js" />
-    <Content Include="Plantilla\css\ie\PIE.htc" />
-    <Content Include="Plantilla\css\ie\v8.css" />
-    <Content Include="Plantilla\css\skel.css" />
-    <Content Include="Plantilla\css\style-large.css" />
-    <Content Include="Plantilla\css\style-medium.css" />
-    <Content Include="Plantilla\css\style-small.css" />
-    <Content Include="Plantilla\css\style-xlarge.css" />
-    <Content Include="Plantilla\css\style-xsmall.css" />
-    <Content Include="Plantilla\css\style.css" />
-    <Content Include="Plantilla\fonts\fontawesome-webfont.svg" />
-    <Content Include="Plantilla\images\avatar.jpg" />
-    <Content Include="Plantilla\images\banner.jpg" />
-    <Content Include="Plantilla\images\pic01.jpg" />
-    <Content Include="Plantilla\images\pic02.jpg" />
-    <Content Include="Plantilla\images\pic03.jpg" />
-    <Content Include="Plantilla\index.html" />
-    <Content Include="Plantilla\js\init.js" />
-    <Content Include="Plantilla\js\jquery.min.js" />
-    <Content Include="Plantilla\js\jquery.scrolly.min.js" />
-    <Content Include="Plantilla\js\jquery.scrollzer.min.js" />
-    <Content Include="Plantilla\js\skel-layers.min.js" />
-    <Content Include="Plantilla\js\skel.min.js" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\ie\html5shiv.js" />
+    <Content Include="css\ie\PIE.htc" />
+    <Content Include="css\ie\v8.css" />
+    <Content Include="css\skel.css" />
+    <Content Include="css\style-large.css" />
+    <Content Include="css\style-medium.css" />
+    <Content Include="css\style-small.css" />
+    <Content Include="css\style-xlarge.css" />
+    <Content Include="css\style-xsmall.css" />
+    <Content Include="css\style.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="images\avatar.jpg" />
+    <Content Include="images\banner.jpg" />
+    <Content Include="images\pic01.jpg" />
+    <Content Include="images\pic02.jpg" />
+    <Content Include="images\pic03.jpg" />
+    <Content Include="index.html" />
+    <Content Include="js\init.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.scrolly.min.js" />
+    <Content Include="js\jquery.scrollzer.min.js" />
+    <Content Include="js\skel-layers.min.js" />
+    <Content Include="js\skel.min.js" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.Master.cs">
       <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Main.Master" />
-    <Content Include="Plantilla\fonts\fontawesome-webfont.eot" />
-    <Content Include="Plantilla\fonts\fontawesome-webfont.ttf" />
-    <Content Include="Plantilla\fonts\fontawesome-webfont.woff" />
-    <Content Include="Plantilla\fonts\FontAwesome.otf" />
-    <Content Include="Plantilla\sass\ie\v8.scss" />
-    <Content Include="Plantilla\sass\style-large.scss" />
-    <Content Include="Plantilla\sass\style-medium.scss" />
-    <Content Include="Plantilla\sass\style-small.scss" />
-    <Content Include="Plantilla\sass\style-xlarge.scss" />
-    <Content Include="Plantilla\sass\style-xsmall.scss" />
-    <Content Include="Plantilla\sass\style.scss" />
-    <Content Include="Plantilla\sass\_mixins.scss" />
-    <Content Include="Plantilla\sass\_vars.scss" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="sass\ie\v8.scss" />
+    <Content Include="sass\style-large.scss" />
+    <Content Include="sass\style-medium.scss" />
+    <Content Include="sass\style-small.scss" />
+    <Content Include="sass\style-xlarge.scss" />
+    <Content Include="sass\style-xsmall.scss" />
+    <Content Include="sass\style.scss" />
+    <Content Include="sass\_mixins.scss" />
+    <Content Include="sass\_vars.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
