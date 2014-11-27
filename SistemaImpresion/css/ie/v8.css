@@ -30,7 +30,10 @@
 	input[type="email"],
 	select {
 		line-height: 2.75em;
-	}
+    top: 0px;
+    left: -1px;
+    width: 91px;
+}
 
 	input[type="checkbox"],
 	input[type="radio"] {
