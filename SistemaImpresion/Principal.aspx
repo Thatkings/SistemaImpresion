@@ -59,7 +59,7 @@
                 <section id="one">
                     <div class="container">
                         <h3>Iniciar Sesión</h3>
-                        <form method="post" action="Main.aspx">
+                        </div>
                             <div class="row uniform collapse-at-2">
                                 <div class="6u">
                                     <input type="text" name="User" id="User" placeholder="Usuario" /></div>
@@ -71,10 +71,11 @@
                             <div class="row uniform">
                                 <div class="12u">
                                     <ul class="actions">
+                                        <li><asp:Button ID="EntrarButton" runat="server"  class="special" Text="Entrar" />
+                                        </li>
                                         <li>
-                                            <input type="submit" class="special" value="Entrar" /></li>
-                                        <li>
-                                            <input type="reset" value="Limpiar" /></li>
+                                            <asp:Button ID="Button1" runat="server" Text="Button" />
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -119,6 +120,7 @@
             </section>
 
         </div>
+    </form>
     </form>
 </body>
 </html>
