@@ -15,6 +15,7 @@
     <script src="js/skel.min.js"></script>
     <script src="js/skel-layers.min.js"></script>
     <script src="js/init.js"></script>
+
     <noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -23,8 +24,9 @@
     <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
+    <div id="wrapper">
+        <form id="form1" runat="server">
+
             <!-- Header -->
             <section id="header" class="skel-layers-fixed">
                 <header>
@@ -59,22 +61,23 @@
                 <section id="one">
                     <div class="container">
                         <h3>Iniciar Sesión</h3>
-                        </div>
+                        <form method="post" action="#">
                             <div class="row uniform collapse-at-2">
                                 <div class="6u">
-                                    <input type="text" name="User" id="User" placeholder="Usuario" /></div>
+                                    <input type="text" name="User" id="User" placeholder="Usuario" />
                                 </div>
+                            </div>
                             <div class="row uniform collapse-at-2">
                                 <div class="6u">
-                                    <input type="password" name="Clave" id="Clave" placeholder="Contraseña" /></div>
+                                    <input type="password" name="Clave" id="Clave" placeholder="Contraseña" />
+                                    <a href="#" >¿Olvidó la contraseña?</a>
+                                </div>
                             </div>
                             <div class="row uniform">
                                 <div class="12u">
                                     <ul class="actions">
-                                        <li><asp:Button ID="EntrarButton" runat="server"  class="special" Text="Entrar" />
-                                        </li>
                                         <li>
-                                            <asp:Button ID="Button1" runat="server" Text="Button" />
+                                            <asp:Button ID="EntrarButton" runat="server" class="special" Text="Entrar" OnClick="EntrarButton_Click" />
                                         </li>
                                     </ul>
                                 </div>
@@ -110,6 +113,7 @@
                     </div>
                 </section>
             </div>
+
             <!-- Footer -->
             <section id="footer">
                 <div class="container">
@@ -118,9 +122,7 @@
                     </ul>
                 </div>
             </section>
-
-        </div>
-    </form>
-    </form>
+        </form>
+    </div>
 </body>
 </html>

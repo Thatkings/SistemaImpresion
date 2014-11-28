@@ -21,7 +21,9 @@
 	.button {
 		position: relative;
 		-ms-behavior: url("css/ie/PIE.htc");
-	}
+    top: 0px;
+    left: 0px;
+}
 
 /* Form */
 

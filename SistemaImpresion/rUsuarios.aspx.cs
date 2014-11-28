@@ -7,16 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace SistemaImpresion
 {
-    public partial class Principal : System.Web.UI.Page
+    public partial class rUsuarios : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Response.Redirect("/Default.aspx");
-        }
 
-        protected void EntrarButton_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("/Default.aspx");
         }
     }
 }

@@ -11,11 +11,18 @@ h1, h2, h3 {
 	margin: 0;
 	text-transform: uppercase;
 	font-family: Arial, Helvetica, sans-serif;
-	font-weight: normal;
+	font-weight: 700;
 	color: #000000;
 }
 
-h1 { font-size: 44px; }
+h1 { font-size: 44px;
+    z-index: 1;
+    left: 307px;
+    top: 204px;
+    position: absolute;
+    height: 13px;
+    width: 583px;
+}
 
 h2 { font-size: 18px; }
 
@@ -170,8 +177,8 @@ hr { display: none; }
 /* Page */
 
 #page {
-	width: 920px;
-	margin: 0 auto;
+	width: 910px;
+	margin: 0 auto 0 5px;
 }
 
 #page-bgtop {
@@ -191,7 +198,7 @@ hr { display: none; }
 	margin: 0px;
 	line-height: normal;
 	text-transform: lowercase;
-	font-weight: normal;
+	font-weight: 700;
 	color: #FFFFFF;
 }
 
@@ -214,9 +221,11 @@ hr { display: none; }
 
 #content {
 	float: right;
-	width: 658px;
+	width: 693px;
 	padding-top: 10px;
 	padding-right: 30px;
+    height: 625px;
+    margin-left: 205px;
 }
 
 /* Post */
@@ -276,11 +285,12 @@ hr { display: none; }
 
 #sidebar {
 	float: left;
-	width: 177px;
+	width: 151px;
 	padding-left: 22px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #104d7a;
+    margin-top: 0px;
 }
 
 #sidebar ul {
@@ -401,6 +411,11 @@ hr { display: none; }
 	padding: 0px;
 	height: 99px;
 	background: #2f668f;
+    width: 1377px;
+    z-index: 1;
+    left: 10px;
+    top: 821px;
+    position: absolute;
 }
 
 #footer p {
