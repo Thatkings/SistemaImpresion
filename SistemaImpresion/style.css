@@ -17,14 +17,21 @@ h1, h2, h3 {
 
 h1 { font-size: 44px;
     z-index: 1;
-    left: 307px;
-    top: 204px;
+    left: 154px;
+    top: -15px;
     position: absolute;
     height: 13px;
     width: 583px;
 }
 
-h2 { font-size: 18px; }
+h2 { font-size: 18px;
+    z-index: 1;
+    left: 243px;
+    top: 223px;
+    position: absolute;
+    height: 47px;
+    width: 538px;
+}
 
 h3 { }
 
@@ -32,6 +39,7 @@ p, ul, ol {
 	margin-top: 0;
 	line-height: 100%;
 	text-align: justify;
+    font-size: medium;
 }
 
 ul, ol { }
@@ -205,6 +213,12 @@ hr { display: none; }
 #logo p {
 	text-transform: lowercase;
 	font-size: 12px;
+    z-index: 1;
+    left: 181px;
+    top: 74px;
+    position: absolute;
+    height: 15px;
+    width: 830px;
 }
 
 #logo h1 {

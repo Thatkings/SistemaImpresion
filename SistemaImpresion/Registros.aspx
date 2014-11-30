@@ -9,20 +9,25 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+    <style type="text/css">
+        .auto-style1 {
+            font-size: xx-large;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div id="wrapper">
             <div id="logo">
                 <h1>Print System</h1>
-                <p><em>El mejor sistema para su inventario de impresiones.</em></p>
+                <p><em style="z-index: 1; left: 8px; top: -3px; position: absolute">El mejor sistema para su inventario de impresiones.</em></p>
             </div>
             <!-- end #logo -->
             <div id="header">
                 <div id="menu">
                     <ul>
                         <li><a href="Default.aspx">Inicio</a></li>
-                        <li class="current_page_item"><a href="#" class="first">Registros</a></li>
+                        <li class="current_page_item"><a href="Registros.aspx" class="first">Registros</a></li>
                         <li><a href="#">Consultas</a></li>
                         <li><a href="#">Acerca de</a></li>
                         <li><a href="#">Contactos</a></li>
@@ -36,16 +41,40 @@
                     <div>
                         <div style="height: 627px">
                             <div style="width: 674px; height: 337px;">
-                                <br /><br /><br /><br /><br /><br />
-                                <h1>Registros</h1>
-                                <br /><br /><br />
-                                <ul>
-                                    <li><a href="rUsuarios.aspx"><h3>Usuario</h3></a></li><br />
-                                    <li><a href="#"><h3>Servicio</h3></a></li><br />
-                                    <li><a href="#"><h3>Informe Diario</h3></a></li><br />
-                                    <li><a href="#"><h3>Informe Semanal de Empleado</h3></a></li><br />
-                                    <li><a href="#"><h3>Informe General</h3></a></li><br />
-                                </ul>
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <h2 class="auto-style1">Registros</h2>
+                                <br />
+                                <br />
+                                <br />
+                                <div style="z-index: 1; left: 235px; top: 303px; position: absolute; height: 160px; width: 674px">
+                                    <ul>
+                                        <li><a href="rUsuarios.aspx">
+                                            <h3>Usuario</h3>
+                                        </a></li>
+                                        <br />
+                                        <li><a href="#">
+                                            <h3>Servicio</h3>
+                                        </a></li>
+                                        <br />
+                                        <li><a href="#">
+                                            <h3>Informe Diario</h3>
+                                        </a></li>
+                                        <br />
+                                        <li><a href="#">
+                                            <h3>Informe Semanal de Empleado</h3>
+                                        </a></li>
+                                        <br />
+                                        <li><a href="#">
+                                            <h3>Informe General</h3>
+                                        </a></li>
+                                        <br />
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                         <div style="clear: both;"></div>

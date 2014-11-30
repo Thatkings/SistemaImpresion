@@ -9,19 +9,24 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+    <style type="text/css">
+        .auto-style1 {
+            font-size: xx-large;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div id="wrapper">
             <div id="logo">
                 <h1>Print System</h1>
-                <p><em>El mejor sistema para su inventario de impresiones.</em></p>
+                <p><em style="z-index: 1; left: 8px; top: -3px; position: absolute">El mejor sistema para su inventario de impresiones.</em></p>
             </div>
             <!-- end #logo -->
             <div id="header">
                 <div id="menu">
                     <ul>
-                        <li class="current_page_item"><a href="#" class="first">Inicio</a></li>
+                        <li class="current_page_item"><a href="Default.aspx" class="first">Inicio</a></li>
                         <li><a href="Registros.aspx">Registros</a></li>
                         <li><a href="#">Consultas</a></li>
                         <li><a href="#">Acerca de</a></li>
@@ -37,8 +42,8 @@
                         <div style="height: 627px">
                             <div style="width: 674px; height: 337px;">
                                 <br /><br /><br /><br /><br /><br />
-                                <h1>Bienvenido a Print System</h1>
-                                <br /><br /><br />
+                                <h2 class="auto-style1">Bienvenido a Print System</h2>
+                                <br /><br /><br /><br />
                                 <ul>
                                     <p>Info here</p>
                                 </ul>
