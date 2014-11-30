@@ -187,6 +187,7 @@ hr { display: none; }
 #page {
 	width: 910px;
 	margin: 0 auto 0 5px;
+    height: 841px;
 }
 
 #page-bgtop {
@@ -428,7 +429,7 @@ hr { display: none; }
     width: 1377px;
     z-index: 1;
     left: 10px;
-    top: 821px;
+    top: 1118px;
     position: absolute;
 }
 

@@ -61,7 +61,7 @@
                                     </li><br />
                                     <li><a href="rVentas.aspx"><h3>Venta</h3></a>
                                     </li><br />
-                                    <li><a href="#"><h3>Informe Diario</h3></a>
+                                    <li><a href="rInformeDiario.aspx"><h3>Informe Diario</h3></a>
                                     </li><br />
                                     <li><a href="#"><h3>Informe Semanal de Empleado</h3></a>
                                     </li><br />

@@ -105,6 +105,7 @@
     <Content Include="Principal.aspx" />
     <Content Include="Registros.aspx" />
     <Content Include="rEmpleados.aspx" />
+    <Content Include="rInformeDiario.aspx" />
     <Content Include="rRecuperarClave.aspx" />
     <Content Include="rServicios.aspx" />
     <Content Include="rUsuarios.aspx" />
@@ -148,6 +149,13 @@
     </Compile>
     <Compile Include="rEmpleados.aspx.designer.cs">
       <DependentUpon>rEmpleados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rInformeDiario.aspx.cs">
+      <DependentUpon>rInformeDiario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rInformeDiario.aspx.designer.cs">
+      <DependentUpon>rInformeDiario.aspx</DependentUpon>
     </Compile>
     <Compile Include="rRecuperarClave.aspx.cs">
       <DependentUpon>rRecuperarClave.aspx</DependentUpon>
