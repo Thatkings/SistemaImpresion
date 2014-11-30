@@ -53,7 +53,6 @@
                                 </div>
                                 <div style="height: 61px; width: 400px;">
                                     <asp:Label ID="PreguntaLabel" runat="server" Text="Pregunta de Seguridad" Style="font-size: medium"></asp:Label>
-                                    &nbsp;&nbsp;
                                     <asp:DropDownList ID="PreguntaDropDownList" runat="server" Width="283px">
                                     </asp:DropDownList>
                                 </div>

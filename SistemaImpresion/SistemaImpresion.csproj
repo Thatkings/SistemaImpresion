@@ -104,9 +104,11 @@
     <Content Include="license.txt" />
     <Content Include="Principal.aspx" />
     <Content Include="Registros.aspx" />
+    <Content Include="rEmpleados.aspx" />
     <Content Include="rRecuperarClave.aspx" />
     <Content Include="rServicios.aspx" />
     <Content Include="rUsuarios.aspx" />
+    <Content Include="rVentas.aspx" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -140,6 +142,13 @@
     <Compile Include="Registros.aspx.designer.cs">
       <DependentUpon>Registros.aspx</DependentUpon>
     </Compile>
+    <Compile Include="rEmpleados.aspx.cs">
+      <DependentUpon>rEmpleados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rEmpleados.aspx.designer.cs">
+      <DependentUpon>rEmpleados.aspx</DependentUpon>
+    </Compile>
     <Compile Include="rRecuperarClave.aspx.cs">
       <DependentUpon>rRecuperarClave.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -160,6 +169,13 @@
     </Compile>
     <Compile Include="rUsuarios.aspx.designer.cs">
       <DependentUpon>rUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rVentas.aspx.cs">
+      <DependentUpon>rVentas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rVentas.aspx.designer.cs">
+      <DependentUpon>rVentas.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
