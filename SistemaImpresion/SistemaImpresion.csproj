@@ -61,10 +61,12 @@
     <Content Include="App_Data\SistemaImpresiones_log.ldf">
       <DependentUpon>SistemaImpresiones.mdf</DependentUpon>
     </Content>
+    <Content Include="CambiarClave.aspx" />
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="Default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="images\img01.jpg" />
     <Content Include="images\img02.jpg" />
@@ -102,10 +104,29 @@
     <Content Include="license.txt" />
     <Content Include="Main.aspx" />
     <Content Include="Principal.aspx" />
+    <Content Include="Registros.aspx" />
+    <Content Include="rEmpleados.aspx" />
+    <Content Include="rInformeDiario.aspx" />
+    <Content Include="rRecuperarClave.aspx" />
+    <Content Include="rServicios.aspx" />
+    <Content Include="rUsuarios.aspx" />
+    <Content Include="rVentas.aspx" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CambiarClave.aspx.cs">
+      <DependentUpon>CambiarClave.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CambiarClave.aspx.designer.cs">
+      <DependentUpon>CambiarClave.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Main.aspx.cs">
       <DependentUpon>Main.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -127,6 +148,48 @@
       <DependentUpon>Principal.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registros.aspx.cs">
+      <DependentUpon>Registros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registros.aspx.designer.cs">
+      <DependentUpon>Registros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rEmpleados.aspx.cs">
+      <DependentUpon>rEmpleados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rEmpleados.aspx.designer.cs">
+      <DependentUpon>rEmpleados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rInformeDiario.aspx.cs">
+      <DependentUpon>rInformeDiario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rInformeDiario.aspx.designer.cs">
+      <DependentUpon>rInformeDiario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rRecuperarClave.aspx.cs">
+      <DependentUpon>rRecuperarClave.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rRecuperarClave.aspx.designer.cs">
+      <DependentUpon>rRecuperarClave.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rServicios.aspx.cs">
+      <DependentUpon>rServicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rServicios.aspx.designer.cs">
+      <DependentUpon>rServicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rUsuarios.aspx.cs">
+      <DependentUpon>rUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rUsuarios.aspx.designer.cs">
+      <DependentUpon>rUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rVentas.aspx.cs">
+      <DependentUpon>rVentas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rVentas.aspx.designer.cs">
+      <DependentUpon>rVentas.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Main.Master" />
