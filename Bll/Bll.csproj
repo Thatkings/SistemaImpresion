@@ -45,6 +45,9 @@
     <Compile Include="InformeGeneral.cs" />
     <Compile Include="InformeSemanalEmp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistroServicios.cs" />
+    <Compile Include="Usuario.cs" />
+    <Compile Include="Venta.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Dal\Dal.csproj">
