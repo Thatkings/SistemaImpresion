@@ -15,7 +15,7 @@ namespace SistemaImpresion
 
         protected void EntrarButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("/Default.aspx");
+            //Response.Redirect("/Default.aspx");
         }
     }
 }

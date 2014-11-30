@@ -40,6 +40,24 @@ namespace SistemaImpresion {
         protected global::System.Web.UI.WebControls.TextBox NombreTextBox;
         
         /// <summary>
+        /// CostoServicioLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label CostoServicioLabel;
+        
+        /// <summary>
+        /// CostoServicioDropDownList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList CostoServicioDropDownList;
+        
+        /// <summary>
         /// DescripcionLabel control.
         /// </summary>
         /// <remarks>
