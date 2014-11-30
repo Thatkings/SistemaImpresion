@@ -1,11 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="rUsuarios.aspx.cs" Inherits="SistemaImpresion.rUsuarios" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="rRecuperarClave.aspx.cs" Inherits="SistemaImpresion.rRecuperarClave" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>.:: Registro de Usuarios - Print System ::.</title>
+    <title>.:: Recuperar Contraseña - Print System ::.</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
@@ -26,11 +26,7 @@
             <div id="header">
                 <div id="menu">
                     <ul>
-                        <li><a href="Default.aspx">Inicio</a></li>
-                        <li class="current_page_item"><a href="Registros.aspx" class="first">Registros</a></li>
-                        <li><a href="#">Consultas</a></li>
-                        <li><a href="#">Acerca de</a></li>
-                        <li><a href="#">Contactos</a></li>
+                        <li><a href="Principal.aspx">Empezar</a></li>
                     </ul>
                 </div>
                 <!-- end #menu -->
@@ -40,7 +36,7 @@
                 <div id="page">
                     <div>
                         <div style="height: 80px">
-                            <h2 class="auto-style1">Registro de Usuarios</h2>
+                            <h2 class="auto-style1">Recuperar Contraseña</h2>
                         </div>
                         <br />
                         <br />
@@ -51,24 +47,9 @@
                                 <br />
                                 <br />
                                 <div style="height: 61px; width: 400px;">
-                                    <asp:Label ID="NombreLabel" runat="server" Text="Nombre" Style="font-size: medium"></asp:Label>
-                                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="ActivoCheckBox" runat="server" Checked="True" Text="Activo/a" Style="font-size: medium" />
-                                    <asp:TextBox ID="NombreTextBox" runat="server" Width="283px"></asp:TextBox>
-                                </div>
-                                <div style="height: 61px; width: 400px;">
                                     <asp:Label ID="NicknameLabel" runat="server" Text="Nickname" Style="font-size: medium"></asp:Label>
                                     <br />
                                     <asp:TextBox ID="NicknameTextBox" runat="server" Width="283px"></asp:TextBox>
-                                </div>
-                                <div style="height: 61px; width: 400px;">
-                                    <asp:Label ID="ClaveLabel" runat="server" Text="Contraseña" Style="font-size: medium"></asp:Label>
-                                    <br />
-                                    <asp:TextBox ID="ClaveTextBox" runat="server" Width="283px"></asp:TextBox>
-                                </div>
-                                <div style="height: 61px; width: 400px;">
-                                    <asp:Label ID="ConfirmarClaveLabel" runat="server" Text="Confirmar Contraseña" Style="font-size: medium"></asp:Label>
-                                    &nbsp;&nbsp;
-                                    <asp:TextBox ID="ConfirmarClaveTextBox" runat="server" Width="283px"></asp:TextBox>
                                 </div>
                                 <div style="height: 61px; width: 400px;">
                                     <asp:Label ID="PreguntaLabel" runat="server" Text="Pregunta de Seguridad" Style="font-size: medium"></asp:Label>
@@ -81,17 +62,11 @@
                                     <br />
                                     <asp:TextBox ID="RespuestaTextBox" runat="server" Width="283px"></asp:TextBox>
                                 </div>
-                                <div style="height: 61px; width: 100px; z-index: 1; left: 0px; top: 411px; position: absolute;">
-                                    <asp:Button ID="GuardarButton" runat="server" Text="Guardar" />
+                                <div style="height: 61px; width: 100px; z-index: 1; top: 231px; position: absolute;">
+                                    <asp:Button ID="RecupearButton" runat="server" Text="Recuperar" OnClick="RecupearButton_Click" />
                                 </div>
-                                <div style="height: 61px; width: 100px; z-index: 1; left: 100px; top: 411px; position: absolute;">
-                                    <asp:Button ID="ConsultarButton" runat="server" Text="Consultar" />
-                                </div>
-                                <div style="height: 61px; width: 100px; z-index: 1; left: 200px; top: 411px; position: absolute;">
-                                    <asp:Button ID="LimpiarButton" runat="server" Text="Limpiar" />
-                                </div>
-                                <div style="height: 61px; width: 100px; z-index: 1; left: 300px; top: 411px; position: absolute;">
-                                    <asp:Button ID="EliminarButton" runat="server" Text="Eliminar" />
+                                <div style="height: 61px; width: 100px; z-index: 1; left: 100px; top: 231px; position: absolute;">
+                                    <asp:Button ID="CancelarButton" runat="server" Text="Cancelar" />
                                 </div>
                             </div>
                         </div>

@@ -61,6 +61,7 @@
     <Content Include="App_Data\SistemaImpresiones_log.ldf">
       <DependentUpon>SistemaImpresiones.mdf</DependentUpon>
     </Content>
+    <Content Include="CambiarClave.aspx" />
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
@@ -103,11 +104,20 @@
     <Content Include="license.txt" />
     <Content Include="Principal.aspx" />
     <Content Include="Registros.aspx" />
+    <Content Include="rRecuperarClave.aspx" />
+    <Content Include="rServicios.aspx" />
     <Content Include="rUsuarios.aspx" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CambiarClave.aspx.cs">
+      <DependentUpon>CambiarClave.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CambiarClave.aspx.designer.cs">
+      <DependentUpon>CambiarClave.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -129,6 +139,20 @@
     </Compile>
     <Compile Include="Registros.aspx.designer.cs">
       <DependentUpon>Registros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rRecuperarClave.aspx.cs">
+      <DependentUpon>rRecuperarClave.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rRecuperarClave.aspx.designer.cs">
+      <DependentUpon>rRecuperarClave.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rServicios.aspx.cs">
+      <DependentUpon>rServicios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rServicios.aspx.designer.cs">
+      <DependentUpon>rServicios.aspx</DependentUpon>
     </Compile>
     <Compile Include="rUsuarios.aspx.cs">
       <DependentUpon>rUsuarios.aspx</DependentUpon>

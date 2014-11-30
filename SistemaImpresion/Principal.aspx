@@ -70,7 +70,7 @@
                             <div class="row uniform collapse-at-2">
                                 <div class="6u">
                                     <input type="password" name="Clave" id="Clave" placeholder="Contraseña" />
-                                    <a href="#" >¿Olvidó la contraseña?</a>
+                                    <a href="rRecuperarClave.aspx" >¿Olvidó la contraseña?</a>
                                 </div>
                             </div>
                             <div class="row uniform">
