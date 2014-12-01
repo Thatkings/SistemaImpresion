@@ -20,7 +20,7 @@
         <div id="wrapper">
             <div id="logo">
                 <h1>Print System</h1>
-                <p><em style="z-index: 1; left: 8px; top: -3px; position: absolute">El mejor sistema para su inventario de impresiones.</em></p>
+                <p><em style="z-index: 1; left: 221px; top: 86px; position: absolute">El mejor sistema para su inventario de impresiones.</em></p>
             </div>
             <!-- end #logo -->
             <div id="header">
@@ -51,7 +51,7 @@
                                 <br />
                                 <br />
                                 <br />
-                                <div style="z-index: 1; left: 235px; top: 303px; position: absolute; height: 160px; width: 674px">
+                                <div style="z-index: 1; left: 238px; top: 313px; position: absolute; height: 160px; width: 674px">
                                     <ul>
                                         <li><a href="rUsuarios.aspx"><h3>Usuario</h3></a>
                                     </li><br />

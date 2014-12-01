@@ -20,7 +20,7 @@
         <div id="wrapper">
             <div id="logo">
                 <h1>Print System</h1>
-                <p><em style="z-index: 1; left: 8px; top: -3px; position: absolute">El mejor sistema para su inventario de impresiones.</em></p>
+                <p><em style="z-index: 1; left: 221px; top: 86px; position: absolute">El mejor sistema para su inventario de impresiones.</em></p>
             </div>
             <!-- end #logo -->
             <div id="header">
@@ -64,12 +64,9 @@
                                     <asp:Button ID="GuardarButton" runat="server" Text="Guardar" />
                                 </div>
                                 <div style="height: 61px; width: 100px; z-index: 1; left: 100px; top: 231px; position: absolute;">
-                                    <asp:Button ID="ConsultarButton" runat="server" Text="Consultar" />
-                                </div>
-                                <div style="height: 61px; width: 100px; z-index: 1; left: 200px; top: 231px; position: absolute;">
                                     <asp:Button ID="LimpiarButton" runat="server" Text="Limpiar" />
                                 </div>
-                                <div style="height: 61px; width: 100px; z-index: 1; left: 300px; top: 231px; position: absolute;">
+                                <div style="height: 61px; width: 100px; z-index: 1; left: 200px; top: 231px; position: absolute;">
                                     <asp:Button ID="EliminarButton" runat="server" Text="Eliminar" />
                                 </div>
                             </div>
