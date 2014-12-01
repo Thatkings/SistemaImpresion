@@ -31,13 +31,13 @@ namespace SistemaImpresion {
         protected global::System.Web.UI.WebControls.Label ServicioLabel;
         
         /// <summary>
-        /// PreguntaDropDownList control.
+        /// ServiciosDropDownList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList PreguntaDropDownList;
+        protected global::System.Web.UI.WebControls.DropDownList ServiciosDropDownList;
         
         /// <summary>
         /// ColorLabel control.
