@@ -142,10 +142,10 @@
                                     <asp:Button ID="GuardarButton" runat="server" Text="Guardar" />
                                 </div>
                                 <div style="height: 61px; width: 100px; z-index: 1; left: 100px; top: 571px; position: absolute;">
-                                    <asp:Button ID="ConsultarButton" runat="server" Text="Consultar" />
+                                    <asp:Button ID="LimpiarButton" runat="server" Text="Limpiar" />
                                 </div>
                                 <div style="height: 61px; width: 100px; z-index: 1; left: 200px; top: 571px; position: absolute;">
-                                    <asp:Button ID="LimpiarButton" runat="server" Text="Limpiar" />
+                                    <asp:Button ID="EliminarButton" runat="server" Text="Eliminar" />
                                 </div>
                             </div>
                         </div>

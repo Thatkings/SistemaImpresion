@@ -265,15 +265,6 @@ namespace SistemaImpresion {
         protected global::System.Web.UI.WebControls.Button GuardarButton;
         
         /// <summary>
-        /// ConsultarButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ConsultarButton;
-        
-        /// <summary>
         /// LimpiarButton control.
         /// </summary>
         /// <remarks>
@@ -281,5 +272,14 @@ namespace SistemaImpresion {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button LimpiarButton;
+        
+        /// <summary>
+        /// EliminarButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button EliminarButton;
     }
 }

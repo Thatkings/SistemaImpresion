@@ -53,7 +53,7 @@
                                 <br />
                                 <div style="z-index: 1; left: 235px; top: 303px; position: absolute; height: 160px; width: 674px">
                                     <ul>
-                                        <li><a href="rUsuarios.aspx"><h3>Usuario</h3></a>
+                                    <li><a href="rUsuarios.aspx"><h3>Usuario</h3></a>
                                     </li><br />
                                     <li><a href="rServicios.aspx"><h3>Servicio</h3></a>
                                     </li><br />                                        
@@ -63,7 +63,7 @@
                                     </li><br />
                                     <li><a href="rInformeDiario.aspx"><h3>Informe Diario</h3></a>
                                     </li><br />
-                                    <li><a href="#"><h3>Informe Semanal de Empleado</h3></a>
+                                    <li><a href="rInformeEmpleado.aspx"><h3>Informe Semanal de Empleado</h3></a>
                                     </li><br />
                                     <li><a href="#"><h3>Informe General</h3></a>
                                     </li><br />
