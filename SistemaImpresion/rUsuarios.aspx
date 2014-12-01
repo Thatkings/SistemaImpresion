@@ -82,13 +82,13 @@
                                     <asp:TextBox ID="RespuestaTextBox" runat="server" Width="283px"></asp:TextBox>
                                 </div>
                                 <div style="height: 61px; width: 100px; z-index: 1; left: 0px; top: 411px; position: absolute;">
-                                    <asp:Button ID="GuardarButton" runat="server" Text="Guardar" />
+                                    <asp:Button ID="GuardarButton" runat="server" Text="Guardar" OnClick="GuardarButton_Click" />
                                 </div>
                                 <div style="height: 61px; width: 100px; z-index: 1; left: 100px; top: 411px; position: absolute;">
-                                    <asp:Button ID="LimpiarButton" runat="server" Text="Limpiar" />
+                                    <asp:Button ID="LimpiarButton" runat="server" Text="Limpiar" OnClick="LimpiarButton_Click" />
                                 </div>
                                 <div style="height: 61px; width: 100px; z-index: 1; left: 200px; top: 411px; position: absolute;">
-                                    <asp:Button ID="EliminarButton" runat="server" Text="Eliminar" />
+                                    <asp:Button ID="EliminarButton" runat="server" Text="Eliminar" OnClick="EliminarButton_Click" Visible="False" />
                                 </div>
                             </div>
                         </div>
