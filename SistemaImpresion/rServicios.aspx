@@ -20,7 +20,7 @@
         <div id="wrapper">
             <div id="logo">
                 <h1>Print System</h1>
-                <p><em style="z-index: 1; left: 221px; top: 86px; position: absolute">El mejor sistema para su inventario de impresiones.</em></p>
+                <p><em>El mejor sistema para su inventario de impresiones.</em></p>
             </div>
             <!-- end #logo -->
             <div id="header">
@@ -40,12 +40,14 @@
                 <div id="page">
                     <div>
                         <div style="height: 80px">
+                             <br /><br /><br /><br /><br /><br />
                             <h2 class="auto-style1">Registro de Servicios</h2>
                         </div>
                         <br />
                         <br />
                         <br />
-                        <div style="height: 627px">
+                        <br />
+                        <div style="height: 551px">
                             <div style="width: 652px; height: 549px; z-index: 1; left: 377px; top: 276px; position: absolute;">
                                 <br />
                                 <br />
@@ -55,18 +57,23 @@
                                     <br />
                                     <asp:TextBox ID="NombreTextBox" runat="server" Width="283px"></asp:TextBox>
                                 </div>
+                                <div style="height: 61px; width: 400px;">
+                                    <asp:Label ID="CostoLabel" runat="server" Text="Costo de Servicio" Style="font-size: medium"></asp:Label>
+                                    <br />
+                                    <asp:DropDownList ID="CostoServicioDropDownList" runat="server" Width="283px"></asp:DropDownList>
+                                </div>
                                 <div style="height: 111px; width: 400px;">
                                     <asp:Label ID="DescripcionLabel" runat="server" Text="Descripcion" Style="font-size: medium"></asp:Label>
                                     <br />
                                     <asp:TextBox ID="DescripcionTextBox" runat="server" Width="283px" Height="77px" TextMode="MultiLine"></asp:TextBox>
                                 </div>
-                                <div style="height: 61px; width: 100px; z-index: 1; left: 0px; top: 231px; position: absolute;">
+                                <div style="height: 61px; width: 100px; z-index: 1; left: 0px; top: 290px; position: absolute;">
                                     <asp:Button ID="GuardarButton" runat="server" Text="Guardar" />
                                 </div>
-                                <div style="height: 61px; width: 100px; z-index: 1; left: 100px; top: 231px; position: absolute;">
+                                <div style="height: 61px; width: 100px; z-index: 1; left: 100px; top: 290px; position: absolute;">
                                     <asp:Button ID="LimpiarButton" runat="server" Text="Limpiar" />
                                 </div>
-                                <div style="height: 61px; width: 100px; z-index: 1; left: 200px; top: 231px; position: absolute;">
+                                <div style="height: 61px; width: 100px; z-index: 1; left: 200px; top: 290px; position: absolute;">
                                     <asp:Button ID="EliminarButton" runat="server" Text="Eliminar" />
                                 </div>
                             </div>
