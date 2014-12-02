@@ -47,7 +47,7 @@
                         <br />
                         <br />
                         <br />
-                        <div style="height: 627px">
+                        <div style="height: 551px">
                             <div style="width: 652px; height: 549px; z-index: 1; left: 377px; top: 276px; position: absolute;">
                                 <br />
                                 <br />
