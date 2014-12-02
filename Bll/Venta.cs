@@ -27,25 +27,25 @@ namespace Bll
 
         public bool Modificar()
         {
-            return conexion.EjecutarDB("UPDATE Venta SET= RegistroId=" + RegistroId + ",Color=" + Color + ",Bn=" + Bn + ",Servicio=" + Servicio + ",UsuarioId=" + UsuarioId + ",Cantidad=" + Cantidad + "WHERE VentaId=" + VentaId);
+            return conexion.EjecutarDB("UPDATE Venta SET RegistroId= " + RegistroId + ",Color=" + Color + ",BN=" + Bn + ",Servicio=" + Servicio + ",UsuarioId=" + UsuarioId + ",Cantidad=" + Cantidad + "WHERE VentaId=" + VentaId);
         }
 
         public bool Eliminar()
         {
-            return conexion.EjecutarDB("DELETE FROM Venta WHERE VentaId=" + VentaId);
+            return conexion.EjecutarDB("DELETE FROM Venta WHERE VentaId= " + VentaId);
         }
 
         public bool buscar()
         {
             DataTable dt = new DataTable();
             bool retorno = false;
-            dt = conexion.BuscarDb("SELECT * FROM Venta WHERE VentaId=" + VentaId);
+            dt = conexion.BuscarDb("SELECT * FROM Venta WHERE VentaId= " + VentaId);
             if (dt.Rows.Count > 0)
             {
                 retorno = true;
                 this.RegistroId = (int)dt.Rows[0]["RegistroId"];
                 this.Color = (int)dt.Rows[0]["Color"];
-                this.Bn = (int)dt.Rows[0]["Bn"];
+                this.Bn = (int)dt.Rows[0]["BN"];
                 this.Servicio = (int)dt.Rows[0]["Servicio"];
                 this.UsuarioId = (int)dt.Rows[0]["UsuarioId"];
                 this.Cantidad = (int)dt.Rows[0]["Cantidad"];

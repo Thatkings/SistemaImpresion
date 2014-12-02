@@ -73,6 +73,7 @@
     <Content Include="images\img03.gif" />
     <Content Include="images\img04.jpg" />
     <Content Include="images\img07.jpg" />
+    <Content Include="Index.aspx" />
     <Content Include="index2.html" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
@@ -103,7 +104,6 @@
     <Content Include="js\skel.min.js" />
     <Content Include="license.txt" />
     <Content Include="Main.aspx" />
-    <Content Include="Principal.aspx" />
     <Content Include="Registros.aspx" />
     <Content Include="rEmpleados.aspx" />
     <Content Include="rInformeDiario.aspx" />
@@ -129,6 +129,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Main.aspx.cs">
       <DependentUpon>Main.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -142,13 +149,6 @@
     </Compile>
     <Compile Include="Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Principal.aspx.cs">
-      <DependentUpon>Principal.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Principal.aspx.designer.cs">
-      <DependentUpon>Principal.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registros.aspx.cs">

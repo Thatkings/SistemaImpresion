@@ -48,7 +48,7 @@ namespace Bll
 
         public DataTable Listar(string campos,string filtro)
         {
-            return conexion.BuscarDb("SELECT " + campos + "FROM RegistroServicios WHERE " + filtro);
+            return conexion.BuscarDb("SELECT " + campos + " FROM RegistroServicios WHERE " + filtro);
         }
     }
 }
