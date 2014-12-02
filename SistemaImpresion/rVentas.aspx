@@ -72,7 +72,7 @@
                                     <asp:TextBox ID="CantidadTextBox" runat="server" Width="283px"></asp:TextBox>
                                 </div>
                                 <div style="height: 61px; width: 100px; z-index: 1; left: 0px; top: 300px; position: absolute;">
-                                    <asp:Button ID="GuardarButton" runat="server" Text="Guardar" />
+                                    <asp:Button ID="GuardarButton" runat="server" Text="Guardar" OnClick="GuardarButton_Click1" />
                                 </div>
                                 <div style="height: 61px; width: 100px; z-index: 1; left: 100px; top: 300px; position: absolute;">
                                     <asp:Button ID="LimpiarButton" runat="server" Text="Limpiar" />

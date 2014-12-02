@@ -18,7 +18,7 @@ namespace SistemaImpresion
         {
             if (!IsPostBack)
             {
-                ServiciosDropDownList.DataSource = registrosservicios.Listar("Nombre,Registroid", "1=1");
+                ServiciosDropDownList.DataSource = registrosservicios.Listar("Nombre,RegistroId", "1=1");
                 ServiciosDropDownList.DataTextField = "Nombre";
                 ServiciosDropDownList.DataValueField = "RegistroId";
                 ServiciosDropDownList.DataBind();
@@ -62,6 +62,11 @@ namespace SistemaImpresion
                 venta.VentaId = int.Parse(Request.QueryString["VentaId"]);
                 venta.Eliminar();
             }
+        }
+
+        protected void GuardarButton_Click1(object sender, EventArgs e)
+        {
+
         }
     }
 }
