@@ -20,7 +20,7 @@
         <div id="wrapper">
             <div id="logo">
                 <h1>Print System</h1>
-                <p><em style="z-index: 1; left: 221px; top: 86px; position: absolute">El mejor sistema para su inventario de impresiones.</em></p>
+                <p><em>El mejor sistema para su inventario de impresiones.</em></p>
             </div>
             <!-- end #logo -->
             <div id="header">
@@ -40,8 +40,10 @@
                 <div id="page">
                     <div>
                         <div style="height: 80px">
+                             <br /><br /><br /><br /><br /><br />
                             <h2 class="auto-style1">Registro de Ventas</h2>
                         </div>
+                        <br />
                         <br />
                         <br />
                         <br />

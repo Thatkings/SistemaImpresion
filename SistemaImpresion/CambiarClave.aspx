@@ -62,10 +62,10 @@
                                     <asp:TextBox ID="ConfirmarClaveTextBox" runat="server" Width="283px"></asp:TextBox>
                                 </div>
                                 <div style="height: 61px; width: 100px; z-index: 1; left: 0px; top: 231px; position: absolute;">
-                                    <asp:Button ID="GuardarButton" runat="server" Text="Guardar" />
+                                    <asp:Button ID="GuardarButton" runat="server" Text="Guardar" OnClick="GuardarButton_Click" />
                                 </div>
                                 <div style="height: 61px; width: 100px; z-index: 1; left: 100px; top: 231px; position: absolute;">
-                                    <asp:Button ID="CancelarButton" runat="server" Text="Cancelar" />
+                                    <asp:Button ID="CancelarButton" runat="server" Text="Cancelar" OnClick="CancelarButton_Click" />
                                 </div>
                             </div>
                         </div>

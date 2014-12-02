@@ -17,8 +17,8 @@
     </noscrip>
     <style type="text/css">
         #form1 {
-            height: 172px;
-            width: 297px;
+            height: 795px;
+            width: 1158px;
         }
         .auto-style1 {
             font-size: small;

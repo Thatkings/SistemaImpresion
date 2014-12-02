@@ -65,7 +65,7 @@
                                     <asp:Button ID="RecupearButton" runat="server" Text="Recuperar" OnClick="RecupearButton_Click" />
                                 </div>
                                 <div style="height: 61px; width: 100px; z-index: 1; left: 100px; top: 231px; position: absolute;">
-                                    <asp:Button ID="CancelarButton" runat="server" Text="Cancelar" />
+                                    <asp:Button ID="CancelarButton" runat="server" Text="Cancelar" OnClick="CancelarButton_Click"/>
                                 </div>
                             </div>
                         </div>
