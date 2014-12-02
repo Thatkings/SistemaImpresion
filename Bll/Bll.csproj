@@ -40,7 +40,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Costo.cs" />
-    <Compile Include="EmpleadoUcne.cs" />
     <Compile Include="InformeDiario.cs" />
     <Compile Include="InformeGeneral.cs" />
     <Compile Include="InformeSemanalEmp.cs" />

@@ -80,7 +80,7 @@
                                     <asp:Button ID="LimpiarButton" runat="server" Text="Limpiar" />
                                 </div>
                                 <div style="height: 61px; width: 100px; z-index: 1; left: 200px; top: 300px; position: absolute;">
-                                    <asp:Button ID="EliminarButton" runat="server" Text="Eliminar" />
+                                    <asp:Button ID="EliminarButton" runat="server" Text="Eliminar" Visible="False" />
                                 </div>
                             </div>
                         </div>

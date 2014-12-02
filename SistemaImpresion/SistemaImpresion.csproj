@@ -105,7 +105,6 @@
     <Content Include="license.txt" />
     <Content Include="Main.aspx" />
     <Content Include="Registros.aspx" />
-    <Content Include="rEmpleados.aspx" />
     <Content Include="rInformeDiario.aspx" />
     <Content Include="rRecuperarClave.aspx" />
     <Content Include="rServicios.aspx" />
@@ -157,13 +156,6 @@
     </Compile>
     <Compile Include="Registros.aspx.designer.cs">
       <DependentUpon>Registros.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="rEmpleados.aspx.cs">
-      <DependentUpon>rEmpleados.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="rEmpleados.aspx.designer.cs">
-      <DependentUpon>rEmpleados.aspx</DependentUpon>
     </Compile>
     <Compile Include="rInformeDiario.aspx.cs">
       <DependentUpon>rInformeDiario.aspx</DependentUpon>

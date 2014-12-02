@@ -16,7 +16,7 @@ namespace SistemaImpresion
         
         protected void Page_Load(object sender, EventArgs e)
         {
-            dt = infromediario.ObtenerDatos(Convert.ToDateTime(FechaTextBox));
+            
         }
 
         protected void GuardarButton_Click(object sender, EventArgs e)
@@ -33,6 +33,11 @@ namespace SistemaImpresion
             ImpBNEmpTextBox.Text = "";
             ImpColorEmpTextBox.Text = "";
             ImpColorTextBox.Text = "";
+        }
+
+        protected void FechaTextBox_TextChanged(object sender, EventArgs e)
+        {
+            dt = infromediario.ObtenerDatos(Convert.ToDateTime(FechaTextBox));
         }
     }
 }

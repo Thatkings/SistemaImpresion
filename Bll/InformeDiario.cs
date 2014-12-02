@@ -14,8 +14,6 @@ namespace Bll
        public DateTime Fecha { set; get; }
        public int PaginasImpresasBN { set; get; }
        public int PaginasImpresasCL { set; get; }
-       public int UcneCL { set; get; }
-       public int UcneBN { set; get; }
        public int PagadasCL { set; get; }
        public int PagadasBN { set; get; }
        public int Danadas { set; get; }
@@ -30,12 +28,12 @@ namespace Bll
 
        public bool Insertar() 
        {
-           return conexion.EjecutarDB("INSERT INTO InformeDiario(Fecha,PaginasImpresasBN,PaginasImpresasCL,UcneCL,UcneBN,PagadasCL,PagadasBN,Danadas,Servicios,CobradoUsuario,MontoTotal,Observacion,UsuarioId)Values('" + Fecha + "'," + PaginasImpresasBN + "," + PaginasImpresasCL + "," + UcneCL + "," + UcneBN + "," + PagadasCL + "," + PagadasBN + "," + Danadas + "," + Servicios + "," + CobradoUsuario + "," + MontoTotal + ",'" + Observacion + "'," + UsuarioId + ")");
+           return conexion.EjecutarDB("INSERT INTO InformeDiario(Fecha,PaginasImpresasBN,PaginasImpresasCL,PagadasCL,PagadasBN,Danadas,Servicios,CobradoUsuario,MontoTotal,Observacion,UsuarioId)Values('" + Fecha + "'," + PaginasImpresasBN + "," + PaginasImpresasCL + "," + PagadasCL + "," + PagadasBN + "," + Danadas + "," + Servicios + "," + CobradoUsuario + "," + MontoTotal + ",'" + Observacion + "'," + UsuarioId + ")");
        }
 
        public bool Modificar() 
        {
-           return conexion.EjecutarDB("UPDATE InformeDiario SET fecha ='" + Fecha + "',PaginasImpresasBN=" + PaginasImpresasBN + ",PaginasImpresasCL=" + PaginasImpresasCL + ",UcneCL=" + UcneCL + ",PagadasCl=" + PagadasCL + ",PagadasBN=" + PagadasBN + ",Danadas=" + Danadas + ",Servicios=" + Servicios + ",CobradoUsuario=" + CobradoUsuario + ",Montototal=" + MontoTotal + ",Observacion='" + Observacion + "',UsuarioId=" + UsuarioId + "WHERE DiarioId =" + DiarioId);
+           return conexion.EjecutarDB("UPDATE InformeDiario SET fecha ='" + Fecha + "',PaginasImpresasBN=" + PaginasImpresasBN + ",PaginasImpresasCL=" + PaginasImpresasCL + ",PagadasCl=" + PagadasCL + ",PagadasBN=" + PagadasBN + ",Danadas=" + Danadas + ",Servicios=" + Servicios + ",CobradoUsuario=" + CobradoUsuario + ",Montototal=" + MontoTotal + ",Observacion='" + Observacion + "',UsuarioId=" + UsuarioId + "WHERE DiarioId =" + DiarioId);
        }
 
        public bool Elimnar()
@@ -54,8 +52,6 @@ namespace Bll
                this.Fecha = (DateTime)dt.Rows[0]["Fecha"];
                this.PaginasImpresasBN = (int)dt.Rows[0]["PaginasImpresasBN"];
                this.PaginasImpresasCL = (int)dt.Rows[0]["PaginasImpresasCL"];
-               this.UcneCL = (int)dt.Rows[0]["UcneCL"];
-               this.UcneBN = (int)dt.Rows[0]["UcneBn"];
                this.PagadasBN = (int)dt.Rows[0]["PagadasBN"];
                this.PagadasCL = (int)dt.Rows[0]["PagadasCl"];
                this.Danadas = (int)dt.Rows[0]["Danadas"];

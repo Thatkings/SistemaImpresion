@@ -56,7 +56,7 @@
                                 <div style="height: 45px; width: 400px; z-index: 1; left: 1px; top: 37px; position: absolute;">
                                     <asp:Label ID="FechaLabel" runat="server" Text="Fecha" Style="font-size: medium"></asp:Label>
                                     <br />
-                                    <asp:TextBox ID="FechaTextBox" runat="server" Width="170px" TextMode="Date"></asp:TextBox>
+                                    <asp:TextBox ID="FechaTextBox" runat="server" Width="170px" TextMode="Date" AutoPostBack="True" OnTextChanged="FechaTextBox_TextChanged"></asp:TextBox>
                                 </div>
                                 <div style="height: 194px; z-index: 1; left: 0px; top: 87px; position: absolute; width: 397px">
                                 <div style="z-index: 1; left: 0px; top: 22px; position: absolute; height: 21px; width: 397px" ><span class="auto-style2"><strong>Páginas Impresas</strong></span>
