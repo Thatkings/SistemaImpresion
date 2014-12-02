@@ -57,8 +57,6 @@
                                         <li><a href="rUsuarios.aspx"><h3>Usuario</h3></a>
                                     </li><br />
                                     <li><a href="rServicios.aspx"><h3>Servicio</h3></a>
-                                    </li><br />                                        
-                                    <li><a href="rEmpleados.aspx"><h3>Empleado</h3></a>
                                     </li><br />
                                     <li><a href="rVentas.aspx"><h3>Venta</h3></a>
                                     </li><br />

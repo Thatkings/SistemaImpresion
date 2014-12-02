@@ -28,12 +28,11 @@ namespace SistemaImpresion
             if (usuario.Clave == ClaveAnteriorLabel.Text)
                 if(ClaveNuevaTextBox.Text==ConfirmarClaveTextBox.Text)
                 usuario.RegisrarNuevaContrasena(ClaveNuevaTextBox.Text, usuarioId);
-
         }
 
         protected void CancelarButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Principal.aspx");
+            Response.Redirect("Index.aspx");
         }
     }
 }
