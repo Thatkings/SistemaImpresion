@@ -41,7 +41,7 @@
   <ItemGroup>
     <Compile Include="Costo.cs" />
     <Compile Include="EmpleadoUcne.cs" />
-    <Compile Include="ImformeDiario.cs" />
+    <Compile Include="InformeDiario.cs" />
     <Compile Include="InformeGeneral.cs" />
     <Compile Include="InformeSemanalEmp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

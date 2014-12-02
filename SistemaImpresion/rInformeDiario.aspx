@@ -56,7 +56,7 @@
                                 <div style="height: 45px; width: 400px; z-index: 1; left: 1px; top: 37px; position: absolute;">
                                     <asp:Label ID="FechaLabel" runat="server" Text="Fecha" Style="font-size: medium"></asp:Label>
                                     <br />
-                                    <asp:TextBox ID="NombreTextBox" runat="server" Width="170px" TextMode="Date"></asp:TextBox>
+                                    <asp:TextBox ID="FechaTextBox" runat="server" Width="170px" TextMode="Date"></asp:TextBox>
                                 </div>
                                 <div style="height: 194px; z-index: 1; left: 0px; top: 87px; position: absolute; width: 397px">
                                 <div style="z-index: 1; left: 0px; top: 22px; position: absolute; height: 21px; width: 397px" ><span class="auto-style2"><strong>Páginas Impresas</strong></span>
@@ -79,7 +79,7 @@
                                 <div style="height: 61px; width: 200px; z-index: 1; left: 200px; top: 118px; position: absolute;">
                                     <asp:Label ID="ImpBNEmpLabel" runat="server" Text="Blanco/Negro Empleado" Style="font-size: medium"></asp:Label>
                                     <br />
-                                    <asp:TextBox ID="BNEmpTextBox" runat="server" Width="109px"></asp:TextBox>
+                                    <asp:TextBox ID="ImpBNEmpTextBox" runat="server" Width="109px"></asp:TextBox>
                                 </div>
                                     </div>
                                 <div style="height: 196px; z-index: 1; left: 430px; top: 87px; position: absolute; width: 374px; margin-top: 0px;">
@@ -139,10 +139,10 @@
                                     </div>
 
                                 <div style="height: 61px; width: 100px; z-index: 1; left: 0px; top: 571px; position: absolute;">
-                                    <asp:Button ID="GuardarButton" runat="server" Text="Guardar" />
+                                    <asp:Button ID="GuardarButton" runat="server" Text="Guardar" OnClick="GuardarButton_Click" />
                                 </div>
                                 <div style="height: 61px; width: 100px; z-index: 1; left: 100px; top: 571px; position: absolute;">
-                                    <asp:Button ID="LimpiarButton" runat="server" Text="Limpiar" />
+                                    <asp:Button ID="LimpiarButton" runat="server" Text="Limpiar" OnClick="LimpiarButton_Click" />
                                 </div>
                             </div>
                         </div>

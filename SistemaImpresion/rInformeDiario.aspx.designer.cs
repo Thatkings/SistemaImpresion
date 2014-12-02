@@ -31,13 +31,13 @@ namespace SistemaImpresion {
         protected global::System.Web.UI.WebControls.Label FechaLabel;
         
         /// <summary>
-        /// NombreTextBox control.
+        /// FechaTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox NombreTextBox;
+        protected global::System.Web.UI.WebControls.TextBox FechaTextBox;
         
         /// <summary>
         /// ImpColorLabel control.
@@ -103,13 +103,13 @@ namespace SistemaImpresion {
         protected global::System.Web.UI.WebControls.Label ImpBNEmpLabel;
         
         /// <summary>
-        /// BNEmpTextBox control.
+        /// ImpBNEmpTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox BNEmpTextBox;
+        protected global::System.Web.UI.WebControls.TextBox ImpBNEmpTextBox;
         
         /// <summary>
         /// PagColor control.
