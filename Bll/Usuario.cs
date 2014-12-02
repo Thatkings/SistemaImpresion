@@ -62,5 +62,10 @@ namespace Bll
         {
             return conexion.EjecutarDB("SELECT UsuarioId FROM usuario WHERE UsuarioNombre =" + nikename + " And PreguntaRecuperacion = " + pregunta + " And RespuestaRecuperacion = " + respuesta);
         }
+
+        public bool RegisrarNuevaContrasena(string clave,int usuarioid)
+        {
+            return conexion.EjecutarDB("Update usuario set Clave = " + clave + "where UsuarioId = " + usuarioid);
+        }
     }
 }
