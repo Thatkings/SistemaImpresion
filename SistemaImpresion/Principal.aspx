@@ -61,7 +61,7 @@
                 <section id="one">
                     <div class="container">
                         <h3>Iniciar Sesión</h3>
-                        <form method="post" action="#">
+                        </div>
                             <div class="row uniform collapse-at-2">
                                 <div class="6u">
                                     <input type="text" name="User" id="User" placeholder="Usuario" />
@@ -70,7 +70,7 @@
                             <div class="row uniform collapse-at-2">
                                 <div class="6u">
                                     <input type="password" name="Clave" id="Clave" placeholder="Contraseña" />
-                                    <a href="#" >¿Olvidó la contraseña?</a>
+                                    <a href="rRecuperarClave.aspx" >¿Olvidó la contraseña?</a>
                                 </div>
                             </div>
                             <div class="row uniform">
@@ -82,8 +82,7 @@
                                     </ul>
                                 </div>
                             </div>
-                        </form>
-                    </div>
+                        </div>
                 </section>
 
                 <!-- Two -->

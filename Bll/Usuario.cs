@@ -57,5 +57,10 @@ namespace Bll
         {
             return conexion.BuscarDb("SELECT " + campos + " FROM Usuario WHERE UsuarioId=" + UsuarioId);
         }
+
+        public bool ConsultarPregunta(string nikename, string pregunta,string respuesta)
+        {
+            return conexion.EjecutarDB("SELECT UsuarioId FROM usuario WHERE UsuarioNombre =" + nikename + " And PreguntaRecuperacion = " + pregunta + " And RespuestaRecuperacion = " + respuesta);
+        }
     }
 }
