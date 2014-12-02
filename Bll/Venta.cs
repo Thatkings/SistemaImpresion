@@ -22,7 +22,7 @@ namespace Bll
 
         public bool Insertar() 
         {
-            return conexion.EjecutarDB("INSERT INTO Venta (RegistroId,Color,BN,Servicio,UsuarioId,Cantidad)Values(" + RegistroId + "," + Color + "," + Bn + "," + Servicio + "," + UsuarioId + "," + Cantidad + ")");
+            return conexion.EjecutarDB("INSERT INTO Venta (RegistroId,Color,Bn,Servicio,UsuarioId,Cantidad,FechaVenta)Values(" + RegistroId + "," + Color + "," + Bn + "," + Servicio + "," + UsuarioId + "," + Cantidad + ",'" + DateTime.Now + "')");
         }
 
         public bool Modificar()

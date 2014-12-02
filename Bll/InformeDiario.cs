@@ -8,7 +8,7 @@ using Dal;
 
 namespace Bll
 {
-   public class ImformeDiario
+   public class InformeDiario
     {
        public int DiarioId { set; get; }
        public DateTime Fecha { set; get; }
@@ -73,5 +73,11 @@ namespace Bll
        {
            return conexion.BuscarDb("SELECT " + Campos + " FROM InformeDiario WHERE " + Comando);
        }
+
+       public DataTable ObtenerDatos(DateTime dia)
+       {
+           return conexion.BuscarDb("Select Sum(BN),Sum(Color),Sum(Servicios),Sum(Danadas) From Venta between ('" + dia.AddDays(-1) + "',and '" + dia + "'");
+       }
+
     }
 }
