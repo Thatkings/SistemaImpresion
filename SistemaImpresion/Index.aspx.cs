@@ -16,12 +16,25 @@ namespace SistemaImpresion
 
         protected void EntrarButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Default.aspx");
+            if (UserTextBox.Text == "Admin" && PassTextBox.Text == "1234")
+            {
+                Response.Redirect("Default.aspx");
+            }
+            else
+            {
+                Limpiar();
+            }
         }
 
-        protected void Button1_Click1(object sender, EventArgs e)
+        protected void LimpiarButton_Click(object sender, EventArgs e)
         {
-Response.Redirect("Default.aspx");
+            Limpiar();
+        }
+
+        public void Limpiar()
+        {
+            UserTextBox.Text = "";
+            PassTextBox.Text = "";
         }
     }
 }
