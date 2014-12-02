@@ -112,14 +112,14 @@
                                     <asp:TextBox ID="CobradoUsuarioTextBox" runat="server" Width="109px"></asp:TextBox>
                                 </div>
                                 <div style="height: 61px; width: 200px; z-index: 1; left: 200px; top: 54px; position: absolute;">
-                                    <asp:Label ID="TotalLabel" runat="server" Text="Total RD$" Style="font-size: medium"></asp:Label>
-                                    <br />
-                                    <asp:TextBox ID="TotalTextBox" runat="server" Width="109px"></asp:TextBox>
-                                </div>
-                                <div style="height: 61px; width: 200px; z-index: 1; left: 0px; top: 116px; position: absolute;">
                                     <asp:Label ID="ServicioLabel" runat="server" Text="Servicios Cobrados RD$" Style="font-size: medium"></asp:Label>
                                     <br />
                                     <asp:TextBox ID="ServicioTextBox" runat="server" Width="109px"></asp:TextBox>
+                                </div>
+                                <div style="height: 61px; width: 200px; z-index: 1; left: 0px; top: 116px; position: absolute;">
+                                    <asp:Label ID="TotalLabel" runat="server" Text="Total RD$" Style="font-size: medium"></asp:Label>
+                                    <br />
+                                    <asp:TextBox ID="TotalTextBox" runat="server" Width="109px" OnTextChanged="ServicioTextBox_TextChanged"></asp:TextBox>
                                 </div>
                                     </div>
                                 <div style="height: 341px; z-index: 1; left: 430px; top: 265px; position: absolute; width: 382px">

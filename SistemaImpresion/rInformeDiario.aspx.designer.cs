@@ -184,24 +184,6 @@ namespace SistemaImpresion {
         protected global::System.Web.UI.WebControls.TextBox CobradoUsuarioTextBox;
         
         /// <summary>
-        /// TotalLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label TotalLabel;
-        
-        /// <summary>
-        /// TotalTextBox control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TotalTextBox;
-        
-        /// <summary>
         /// ServicioLabel control.
         /// </summary>
         /// <remarks>
@@ -218,6 +200,24 @@ namespace SistemaImpresion {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox ServicioTextBox;
+        
+        /// <summary>
+        /// TotalLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label TotalLabel;
+        
+        /// <summary>
+        /// TotalTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TotalTextBox;
         
         /// <summary>
         /// ConteoImpLabel control.

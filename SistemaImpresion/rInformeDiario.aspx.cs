@@ -38,6 +38,15 @@ namespace SistemaImpresion
         protected void FechaTextBox_TextChanged(object sender, EventArgs e)
         {
             dt = infromediario.ObtenerDatos(Convert.ToDateTime(FechaTextBox));
+            ImpColorEmpTextBox.Text = ((int)dt.Rows[0]["PaginasImpresasCL"]).ToString();
+            ImpBNEmpTextBox.Text = ((int)dt.Rows[0]["PaginasImpresasBN"]).ToString();
+            PagBNTextBox.Text = (5 * (int)dt.Rows[0]["PagadasBn"]).ToString();
+            PagColorTextBox.Text = (10 * (int)dt.Rows[0]["PagadasCL"]).ToString();
+            DanadasTextBox.Text = ((int)dt.Rows[0]["Danadas"]).ToString();
+            ServicioTextBox.Text = ((int)dt.Rows[0]["Servicios"]).ToString();
+            CobradoUsuarioTextBox.Text=((5 * (int)dt.Rows[0]["PagadasBn"])+(10 * (int)dt.Rows[0]["PagadasCL"])).ToString();
+            TotalTextBox.Text = (((int)dt.Rows[0]["Servicios"]) + int.Parse(CobradoUsuarioTextBox.Text)).ToString();
+            ConteoImpTextBox.Text = ((int)dt.Rows[0]["ConteoOmpresora"]).ToString();
         }
     }
 }
