@@ -106,6 +106,8 @@
     <Content Include="Main.aspx" />
     <Content Include="Registros.aspx" />
     <Content Include="rInformeDiario.aspx" />
+    <Content Include="rInformeEmpleado.aspx" />
+    <Content Include="rInformeGeneral.aspx" />
     <Content Include="rRecuperarClave.aspx" />
     <Content Include="rServicios.aspx" />
     <Content Include="rUsuarios.aspx" />
@@ -163,6 +165,20 @@
     </Compile>
     <Compile Include="rInformeDiario.aspx.designer.cs">
       <DependentUpon>rInformeDiario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rInformeEmpleado.aspx.cs">
+      <DependentUpon>rInformeEmpleado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rInformeEmpleado.aspx.designer.cs">
+      <DependentUpon>rInformeEmpleado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rInformeGeneral.aspx.cs">
+      <DependentUpon>rInformeGeneral.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rInformeGeneral.aspx.designer.cs">
+      <DependentUpon>rInformeGeneral.aspx</DependentUpon>
     </Compile>
     <Compile Include="rRecuperarClave.aspx.cs">
       <DependentUpon>rRecuperarClave.aspx</DependentUpon>

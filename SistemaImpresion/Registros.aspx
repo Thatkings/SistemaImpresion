@@ -62,9 +62,9 @@
                                     </li><br />
                                     <li><a href="rInformeDiario.aspx"><h3>Informe Diario</h3></a>
                                     </li><br />
-                                    <li><a href="#"><h3>Informe Semanal de Empleado</h3></a>
+                                    <li><a href="rInformeEmpleado.aspx"><h3>Informe de Empleado</h3></a>
                                     </li><br />
-                                    <li><a href="#"><h3>Informe General</h3></a>
+                                    <li><a href="rInformeGeneral.aspx"><h3>Informe General</h3></a>
                                     </li><br />
                                     </ul>
                                 </div>

@@ -40,7 +40,12 @@
                 <div id="page">
                     <div>
                         <div style="height: 80px">
-                             <br /><br /><br /><br /><br /><br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
                             <h2 class="auto-style1">Registro de Servicios</h2>
                         </div>
                         <br />
@@ -55,22 +60,22 @@
                                 <div style="height: 61px; width: 400px;">
                                     <asp:Label ID="NombreLabel" runat="server" Text="Nombre" Style="font-size: medium"></asp:Label>
                                     &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="ActivoCheckBox" runat="server" Checked="True" Text="Activo/a" Style="font-size: medium" />
-                                    <asp:TextBox ID="NombreTextBox" runat="server" Width="283px"></asp:TextBox>
+                                    <asp:TextBox ID="NombreTextBox" placeholder="Nombre" runat="server" Width="283px"></asp:TextBox>
                                 </div>
                                 <div style="height: 61px; width: 400px;">
                                     <asp:Label ID="NicknameLabel" runat="server" Text="Nickname" Style="font-size: medium"></asp:Label>
                                     <br />
-                                    <asp:TextBox ID="NicknameTextBox" runat="server" Width="283px"></asp:TextBox>
+                                    <asp:TextBox ID="NicknameTextBox" placeholder="Nombre de usuario" runat="server" Width="283px"></asp:TextBox>
                                 </div>
                                 <div style="height: 61px; width: 400px;">
                                     <asp:Label ID="ClaveLabel" runat="server" Text="Contraseña" Style="font-size: medium"></asp:Label>
                                     <br />
-                                    <asp:TextBox ID="ClaveTextBox" runat="server" Width="283px"></asp:TextBox>
+                                    <asp:TextBox ID="ClaveTextBox" runat="server" placeholder="Contraseña" Width="283px"></asp:TextBox>
                                 </div>
                                 <div style="height: 61px; width: 400px;">
                                     <asp:Label ID="ConfirmarClaveLabel" runat="server" Text="Confirmar Contraseña" Style="font-size: medium"></asp:Label>
                                     &nbsp;&nbsp;
-                                    <asp:TextBox ID="ConfirmarClaveTextBox" runat="server" Width="283px"></asp:TextBox>
+                                    <asp:TextBox ID="ConfirmarClaveTextBox" runat="server" placeholder="Confirmar Contraseña" Width="283px"></asp:TextBox>
                                 </div>
                                 <div style="height: 61px; width: 400px;">
                                     <asp:Label ID="PreguntaLabel" runat="server" Text="Pregunta de Seguridad" Style="font-size: medium"></asp:Label>
@@ -81,7 +86,7 @@
                                 <div style="height: 61px; width: 400px;">
                                     <asp:Label ID="RespuestaLabel" runat="server" Text="Respuesta" Style="font-size: medium"></asp:Label>
                                     <br />
-                                    <asp:TextBox ID="RespuestaTextBox" runat="server" Width="283px"></asp:TextBox>
+                                    <asp:TextBox ID="RespuestaTextBox" placeholder="Respuesta de Recuperación" runat="server" Width="283px"></asp:TextBox>
                                 </div>
                                 <div style="height: 61px; width: 100px; z-index: 1; left: 0px; top: 411px; position: absolute;">
                                     <asp:Button ID="GuardarButton" runat="server" Text="Guardar" OnClick="GuardarButton_Click" />

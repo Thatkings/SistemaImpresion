@@ -13,9 +13,14 @@
         .auto-style1 {
             font-size: xx-large;
         }
+
         .auto-style2 {
             font-size: large;
         }
+
+        .auto-style3 {
+        }
+        .auto-style4 {}
     </style>
 </head>
 <body>
@@ -23,7 +28,7 @@
         <div id="wrapper">
             <div id="logo">
                 <h1>Print System</h1>
-                <p><em style="z-index: 1; left: 221px; top: 86px; position: absolute">El mejor sistema para su inventario de impresiones.</em></p>
+                <p><em>El mejor sistema para su inventario de impresiones.</em></p>
             </div>
             <!-- end #logo -->
             <div id="header">
@@ -42,106 +47,104 @@
 
                 <div id="page">
                     <div>
-                        <div style="height: 80px">
+                        <div style="height: 80px;">
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
                             <h2 class="auto-style1">Registro de Informe Diario</h2>
                         </div>
                         <br />
                         <br />
                         <br />
-                        <div style="height: 704px">
-                            <div style="width: 728px; height: 628px; z-index: 1; left: 377px; top: 276px; position: absolute;">
+                        <div style="height: 565px">
+                            <div style="width: 728px; height: 515px; z-index: 1; left: 376px; top: 284px; position: absolute;">
                                 <br />
                                 <br />
                                 <br />
-                                <div style="height: 45px; width: 400px; z-index: 1; left: 1px; top: 37px; position: absolute;">
+                                <div style="height: 49px; width: 400px;">
                                     <asp:Label ID="FechaLabel" runat="server" Text="Fecha" Style="font-size: medium"></asp:Label>
                                     <br />
                                     <asp:TextBox ID="FechaTextBox" runat="server" Width="170px" TextMode="Date" AutoPostBack="True" OnTextChanged="FechaTextBox_TextChanged"></asp:TextBox>
                                 </div>
-                                <div style="height: 194px; z-index: 1; left: 0px; top: 87px; position: absolute; width: 397px">
-                                <div style="z-index: 1; left: 0px; top: 22px; position: absolute; height: 21px; width: 397px" ><span class="auto-style2"><strong>Páginas Impresas</strong></span>
-                                </div>
-                                <div style="height: 61px; width: 200px; z-index: 1; left: 0px; top: 54px; position: absolute;">
-                                    <asp:Label ID="ImpColorLabel" runat="server" Text="Color" Style="font-size: medium"></asp:Label>
-                                    <br />
-                                    <asp:TextBox ID="ImpColorTextBox" runat="server" Width="109px"></asp:TextBox>
-                                </div>
-                                <div style="height: 61px; width: 200px; z-index: 1; left: 200px; top: 54px; position: absolute;">
-                                    <asp:Label ID="ImpBNLabel" runat="server" Text="Blanco/Negro" Style="font-size: medium"></asp:Label>
-                                    <br />
-                                    <asp:TextBox ID="ImpBNTextBox" runat="server" Width="109px"></asp:TextBox>
-                                </div>
-                                <div style="height: 61px; width: 200px; z-index: 1; left: 2px; top: 118px; position: absolute;">
-                                    <asp:Label ID="ImpColorEmpLabel" runat="server" Text="Color Empleado" Style="font-size: medium"></asp:Label>
-                                    <br />
-                                    <asp:TextBox ID="ImpColorEmpTextBox" runat="server" Width="109px"></asp:TextBox>
-                                </div>
-                                <div style="height: 61px; width: 200px; z-index: 1; left: 200px; top: 118px; position: absolute;">
-                                    <asp:Label ID="ImpBNEmpLabel" runat="server" Text="Blanco/Negro Empleado" Style="font-size: medium"></asp:Label>
-                                    <br />
-                                    <asp:TextBox ID="ImpBNEmpTextBox" runat="server" Width="109px"></asp:TextBox>
-                                </div>
+                                <div style="height: 74px; width: 695px">
+                                    <div style="height: 29px; width: 199px">
+                                        <span class="auto-style2"><strong>Páginas Impresas</strong></span>
                                     </div>
-                                <div style="height: 196px; z-index: 1; left: 430px; top: 87px; position: absolute; width: 374px; margin-top: 0px;">
-                                <div>
-                                    <h4 style="width: 367px; z-index: 1; left: 0px; top: 0px; position: absolute; height: 21px;" class="auto-style2">Páginas Pagadas</h4>
-                                </div>
-                                <div style="height: 61px; width: 200px; z-index: 1; left: 0px; top: 54px; position: absolute;">
-                                    <asp:Label ID="PagColor" runat="server" Text="Color" Style="font-size: medium"></asp:Label>
-                                    <br />
-                                    <asp:TextBox ID="PagColorTextBox" runat="server" Width="109px"></asp:TextBox>
-                                </div>
-                                <div style="height: 61px; width: 161px; z-index: 1; left: 200px; top: 54px; position: absolute;">
-                                    <asp:Label ID="PagBNLabel" runat="server" Text="Blanco/Negro" Style="font-size: medium"></asp:Label>
-                                    <br />
-                                    <asp:TextBox ID="PagBNTextBox" runat="server" Width="109px"></asp:TextBox>
-                                </div>
-                                <div style="height: 61px; width: 200px; z-index: 1; left: 0px; top: 118px; position: absolute;">
-                                    <asp:Label ID="DanadasLabel" runat="server" Text="Dañadas" Style="font-size: medium"></asp:Label>
-                                    <br />
-                                    <asp:TextBox ID="DanadasTextBox" runat="server" Width="109px"></asp:TextBox>
-                                </div>
+                                    <div style="height: 41px; width: 126px;">
+                                        <asp:Label ID="ImpColorLabel" runat="server" Text="Color" Style="font-size: medium"></asp:Label>
+                                        <br />
+                                        <asp:TextBox ID="ImpColorTextBox" placeholder="Color" runat="server" Width="109px"></asp:TextBox>
                                     </div>
-                                <div style="height: 341px; z-index: 1; left: 0px; top: 265px; position: absolute; width: 382px">
-                                <div>
-                                    <h4 style="width: 400px; z-index: 1; left: 0px; top: 0px; position: absolute; height: 21px;" class="auto-style2">Cobrado</h4>
-                                </div>
-                                <div style="height: 61px; width: 200px; z-index: 1; left: 0px; top: 54px; position: absolute;">
-                                    <asp:Label ID="CobradoUsuarioLabel" runat="server" Text="Cobrado Usuario RD$" Style="font-size: medium"></asp:Label>
-                                    <br />
-                                    <asp:TextBox ID="CobradoUsuarioTextBox" runat="server" Width="109px"></asp:TextBox>
-                                </div>
-                                <div style="height: 61px; width: 200px; z-index: 1; left: 200px; top: 54px; position: absolute;">
-                                    <asp:Label ID="ServicioLabel" runat="server" Text="Servicios Cobrados RD$" Style="font-size: medium"></asp:Label>
-                                    <br />
-                                    <asp:TextBox ID="ServicioTextBox" runat="server" Width="109px"></asp:TextBox>
-                                </div>
-                                <div style="height: 61px; width: 200px; z-index: 1; left: 0px; top: 116px; position: absolute;">
-                                    <asp:Label ID="TotalLabel" runat="server" Text="Total RD$" Style="font-size: medium"></asp:Label>
-                                    <br />
-                                    <asp:TextBox ID="TotalTextBox" runat="server" Width="109px" OnTextChanged="ServicioTextBox_TextChanged"></asp:TextBox>
-                                </div>
+                                    <div style="height: 44px; width: 132px; z-index: 1; left: 261px; top: 120px; position: absolute;">
+                                        <asp:Label ID="DanadasLabel" runat="server" Text="Dañadas" Style="font-size: medium"></asp:Label>
+                                        <br />
+                                        <asp:TextBox ID="DanadasTextBox" placeholder="Dañadas" runat="server" Width="109px"></asp:TextBox>
                                     </div>
-                                <div style="height: 341px; z-index: 1; left: 430px; top: 265px; position: absolute; width: 382px">
-                                <div>
-                                    <h4 style="width: 400px; z-index: 1; left: 0px; top: 0px; position: absolute; height: 21px;" class="auto-style2">Otros</h4>
+                                    <div style="height: 44px; width: 122px; z-index: 1; left: 130px; top: 120px; position: absolute;">
+                                        <asp:Label ID="ImpBNLabel" runat="server" Text="Blanco/Negro" Style="font-size: medium"></asp:Label>
+                                        <br />
+                                        <asp:TextBox ID="ImpBNTextBox" runat="server" placeholder="Blanco/Negro" Width="109px"></asp:TextBox>
+                                    </div>
                                 </div>
-                                <div style="height: 61px; width: 200px; z-index: 1; left: 0px; top: 54px; position: absolute;">
-                                    <asp:Label ID="ConteoImpLabel" runat="server" Text="Conteo de la Impresora" Style="font-size: medium"></asp:Label>
-                                    <br />
-                                    <asp:TextBox ID="ConteoImpTextBox" runat="server" Width="109px"></asp:TextBox>
+                                <div style="height: 94px; width: 374px;">
+                                    <div>
+                                        <h4 style="width: 367px; height: 21px; margin-bottom: 7px;" class="auto-style2">Páginas Pagadas</h4>
+                                    </div>
+                                    <div style="height: 61px; width: 126px;">
+                                        <asp:Label ID="PagColor" runat="server" Text="Color" Style="font-size: medium"></asp:Label>
+                                        <br />
+                                        <asp:TextBox ID="PagColorTextBox" placeholder="Color" runat="server" Width="109px"></asp:TextBox>
+                                    </div>
+                                    <div style="height: 45px; width: 127px;  z-index: 1; left: 130px; top: 217px; position: absolute;">
+                                        <asp:Label ID="PagBNLabel" runat="server" Text="Blanco/Negro" Style="font-size: medium"></asp:Label>
+                                        <br />
+                                        <asp:TextBox ID="PagBNTextBox" placeholder="Blanco/Negro" runat="server" Width="109px"></asp:TextBox>
+                                    </div>
                                 </div>
-                                <div style="height: 61px; width: 200px; z-index: 1; left: 0px; top: 116px; position: absolute;">
-                                    <asp:Label ID="ObservacionLabel" runat="server" Text="Observación" Style="font-size: medium"></asp:Label>
-                                    <br />
-                                    <asp:TextBox ID="ObservacionTextBox" runat="server" Width="367px" Height="127px" TextMode="MultiLine"></asp:TextBox>
-                                </div>
+                                <div style="height: 97px; width: 511px">
+                                    <div>
+                                        <h4 style="width: 400px; z-index: 1; left: 0px; top: 260px; position: absolute; height: 21px;" class="auto-style2">Cobrado</h4>
                                     </div>
 
-                                <div style="height: 61px; width: 100px; z-index: 1; left: 0px; top: 571px; position: absolute;">
+                                    <div style="height: 43px; width: 186px; z-index: 1; left: 179px; top: 311px; position: absolute;">
+                                        <asp:Label ID="ServicioLabel" runat="server" Text="Servicios Cobrados RD$" Style="font-size: medium"></asp:Label>
+                                        <br />
+                                        <asp:TextBox ID="ServicioTextBox" placeholder="Servicios" runat="server" Width="109px"></asp:TextBox>
+                                    </div>
+                                    <div style="height: 42px; width: 124px; z-index: 1; left: 381px; top: 311px; position: absolute;">
+                                        <asp:Label ID="TotalLabel" runat="server" Text="Total RD$" Style="font-size: medium"></asp:Label>
+                                        <br />
+                                        <asp:TextBox ID="TotalTextBox" placeholder="Total" runat="server" Width="109px"></asp:TextBox>
+                                    </div>
+                                    <div style="height: 43px; width: 164px; z-index: 1; left: 0px; top: 311px; position: absolute;">
+                                        <asp:Label ID="CobradoUsuarioLabel" runat="server" Text="Cobrado Usuario RD$" Style="font-size: medium"></asp:Label>
+                                        <br />
+                                        <asp:TextBox ID="CobradoUsuarioTextBox" placeholder="Cobrado" runat="server" Width="109px"></asp:TextBox>
+                                    </div>
+                                </div>
+                                <div style="height: 122px; width: 659px">
+                                    <div>
+                                        <h4 style="width: 400px; height: 21px; z-index: 1; left: 0px; top: 357px; position: absolute;" class="auto-style2">Otros</h4>
+                                    </div>
+                                    <div style="height: 61px; width: 200px; z-index: 1; left: 0px; top: 404px; position: absolute;">
+                                        <asp:Label ID="ConteoImpLabel" runat="server" Text="Conteo de la Impresora" Style="font-size: medium"></asp:Label>
+                                        <br />
+                                        <asp:TextBox ID="ConteoImpTextBox" placeholder="Conteo" runat="server" Width="109px"></asp:TextBox>
+                                    </div>
+                                    <div style="height: 60px; width: 304px; z-index: 1; left: 210px; top: 404px; position: absolute;">
+                                        <asp:Label ID="ObservacionLabel" runat="server" Text="Observación" Style="font-size: medium"></asp:Label>
+                                        <br />
+                                        <asp:TextBox ID="ObservacionTextBox" placeholder="Observación..." runat="server" Width="284px" CssClass="auto-style4"></asp:TextBox>
+                                    </div>
+                                </div>
+
+                                <div style="height: 61px; width: 100px; z-index: 1; left: 0px; top: 477px; position: absolute;">
                                     <asp:Button ID="GuardarButton" runat="server" Text="Guardar" OnClick="GuardarButton_Click" />
                                 </div>
-                                <div style="height: 61px; width: 100px; z-index: 1; left: 100px; top: 571px; position: absolute;">
+                                <div style="height: 61px; width: 100px; z-index: 1; left: 107px; top: 477px; position: absolute;">
                                     <asp:Button ID="LimpiarButton" runat="server" Text="Limpiar" OnClick="LimpiarButton_Click" />
                                 </div>
                             </div>

@@ -40,7 +40,12 @@
                 <div id="page">
                     <div>
                         <div style="height: 80px">
-                             <br /><br /><br /><br /><br /><br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
                             <h2 class="auto-style1">Registro de Ventas</h2>
                         </div>
                         <br />
@@ -61,17 +66,17 @@
                                 <div style="height: 61px; width: 400px;">
                                     <asp:Label ID="ColorLabel" runat="server" Text="Color" Style="font-size: medium"></asp:Label>
                                     <br />
-                                    <asp:TextBox ID="ColorTextBox" runat="server" Width="283px"></asp:TextBox>
+                                    <asp:TextBox ID="ColorTextBox" placeholder="Color" runat="server" Width="283px"></asp:TextBox>
                                 </div>
                                 <div style="height: 61px; width: 400px;">
                                     <asp:Label ID="BNLabel" runat="server" Text="Blanco/Negro" Style="font-size: medium"></asp:Label>
                                     <br />
-                                    <asp:TextBox ID="BNTextBox" runat="server" Width="283px"></asp:TextBox>
+                                    <asp:TextBox ID="BNTextBox" placeholder="Blanco/Negro" runat="server" Width="283px"></asp:TextBox>
                                 </div>
                                 <div style="height: 61px; width: 400px;">
                                     <asp:Label ID="CantidadLabel" runat="server" Text="Cantidad" Style="font-size: medium"></asp:Label>
                                     <br />
-                                    <asp:TextBox ID="CantidadTextBox" runat="server" Width="283px"></asp:TextBox>
+                                    <asp:TextBox ID="CantidadTextBox" placeholder="Cantidad Vendida" runat="server" Width="283px"></asp:TextBox>
                                 </div>
                                 <div style="height: 61px; width: 100px; z-index: 1; left: 0px; top: 300px; position: absolute;">
                                     <asp:Button ID="GuardarButton" runat="server" Text="Guardar" OnClick="GuardarButton_Click1" />
@@ -102,4 +107,5 @@
         </div>
     </form>
 </body>
+</html>
 </html>
