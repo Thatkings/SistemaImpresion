@@ -62,10 +62,17 @@
       <DependentUpon>SistemaImpresiones.mdf</DependentUpon>
     </Content>
     <Content Include="CambiarClave.aspx" />
+    <Content Include="cInformeDiario.aspx" />
+    <Content Include="cInformeEmpleado.aspx" />
+    <Content Include="cInformeGeneral.aspx" />
+    <Content Include="Consultas.aspx" />
+    <Content Include="cServicios.aspx" />
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="cUsuarios.aspx" />
+    <Content Include="cVentas.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="images\img01.jpg" />
@@ -122,6 +129,55 @@
     </Compile>
     <Compile Include="CambiarClave.aspx.designer.cs">
       <DependentUpon>CambiarClave.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cInformeDiario.aspx.cs">
+      <DependentUpon>cInformeDiario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cInformeDiario.aspx.designer.cs">
+      <DependentUpon>cInformeDiario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cInformeEmpleado.aspx.cs">
+      <DependentUpon>cInformeEmpleado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cInformeEmpleado.aspx.designer.cs">
+      <DependentUpon>cInformeEmpleado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cInformeGeneral.aspx.cs">
+      <DependentUpon>cInformeGeneral.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cInformeGeneral.aspx.designer.cs">
+      <DependentUpon>cInformeGeneral.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas.aspx.cs">
+      <DependentUpon>Consultas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas.aspx.designer.cs">
+      <DependentUpon>Consultas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cServicios.aspx.cs">
+      <DependentUpon>cServicios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cServicios.aspx.designer.cs">
+      <DependentUpon>cServicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cUsuarios.aspx.cs">
+      <DependentUpon>cUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cUsuarios.aspx.designer.cs">
+      <DependentUpon>cUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cVentas.aspx.cs">
+      <DependentUpon>cVentas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cVentas.aspx.designer.cs">
+      <DependentUpon>cVentas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

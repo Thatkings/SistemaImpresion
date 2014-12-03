@@ -1,4 +1,4 @@
-﻿%@ Page Language="C#" AutoEventWireup="true" CodeBehind="rInformeGeneral.aspx.cs" Inherits="SistemaImpresion.rInformeGeneral" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="rInformeGeneral.aspx.cs" Inherits="SistemaImpresion.rInformeGeneral" %>
 
 <!DOCTYPE html>
 
@@ -44,7 +44,7 @@
                     <ul>
                         <li><a href="Default.aspx">Inicio</a></li>
                         <li class="current_page_item"><a href="Registros.aspx" class="first">Registros</a></li>
-                        <li><a href="#">Consultas</a></li>
+                        <li><a href="Consultas.aspx">Consultas</a></li>
                         <li><a href="#">Acerca de</a></li>
                         <li><a href="#">Contactos</a></li>
                     </ul>

@@ -50,16 +50,16 @@
                                 <br />
                                 <div style="height: 61px; width: 400px;">
                                     <asp:Label ID="ClaveAnteriorLabel" runat="server" Text="Contraseña Anterior" Style="font-size: medium"></asp:Label>
-                                    <asp:TextBox ID="ClaveTextBox" runat="server" Width="283px"></asp:TextBox>
+                                    <asp:TextBox ID="ClaveTextBox" runat="server" type="password" placeholder="Contraseña Anterior" Width="283px"></asp:TextBox>
                                 </div>
                                 <div style="height: 61px; width: 400px;">
                                     <asp:Label ID="ClaveNuevaLabel" runat="server" Text="Nueva Contraseña" Style="font-size: medium"></asp:Label>
                                     <br />
-                                    <asp:TextBox ID="ClaveNuevaTextBox" runat="server" Width="283px"></asp:TextBox>
+                                    <asp:TextBox ID="ClaveNuevaTextBox" runat="server" type="password" placeholder="Nueva Contraseña" Width="283px"></asp:TextBox>
                                 </div>
                                 <div style="height: 61px; width: 400px;">
                                     <asp:Label ID="ConfirmarClaveLabel" runat="server" Text="Confirmar Contraseña" Style="font-size: medium"></asp:Label>
-                                    <asp:TextBox ID="ConfirmarClaveTextBox" runat="server" Width="283px"></asp:TextBox>
+                                    <asp:TextBox ID="ConfirmarClaveTextBox" runat="server" type="password" placeholder="Confirmar Contraseña" Width="283px"></asp:TextBox>
                                 </div>
                                 <div style="height: 61px; width: 100px; z-index: 1; left: 0px; top: 231px; position: absolute;">
                                     <asp:Button ID="GuardarButton" runat="server" Text="Guardar" OnClick="GuardarButton_Click" />

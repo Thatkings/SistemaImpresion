@@ -30,16 +30,12 @@ namespace SistemaImpresion
             PagBNTextBox.Text = "";
             PagColorTextBox.Text = "";
             ImpBNTextBox.Text = "";
-            ImpBNEmpTextBox.Text = "";
-            ImpColorEmpTextBox.Text = "";
             ImpColorTextBox.Text = "";
         }
 
         protected void FechaTextBox_TextChanged(object sender, EventArgs e)
         {
             dt = infromediario.ObtenerDatos(Convert.ToDateTime(FechaTextBox));
-            ImpColorEmpTextBox.Text = ((int)dt.Rows[0]["PaginasImpresasCL"]).ToString();
-            ImpBNEmpTextBox.Text = ((int)dt.Rows[0]["PaginasImpresasBN"]).ToString();
             PagBNTextBox.Text = (5 * (int)dt.Rows[0]["PagadasBn"]).ToString();
             PagColorTextBox.Text = (10 * (int)dt.Rows[0]["PagadasCL"]).ToString();
             DanadasTextBox.Text = ((int)dt.Rows[0]["Danadas"]).ToString();

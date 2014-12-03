@@ -6,6 +6,15 @@
 <head runat="server">
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>.:: Recuperar Contraseña - Print System ::.</title>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/npm.js"></script>
+    <noscrip>
+        <link href="css/bootstrap-theme.css" rel="stylesheet" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/bootstrap.css" rel="stylesheet" />
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+    </noscrip>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
@@ -33,57 +42,63 @@
                 <!-- end #header -->
                 <!-- end #header-wrapper -->
 
-                <div id="page">
-                    <div>
-                        <div style="height: 80px;">                            
-                                <br /><br /><br /><br /><br /><br />
-                            <h2 class="auto-style1">Recuperar Contraseña</h2>
-                        </div>
-                        <br />
-                        <br />
-                        <br />
-                        <div style="height: 565px">
-                            <div style="width: 652px; height: 549px; z-index: 1; left: 377px; top: 285px; position: absolute;">
+                    <div id="page">
+                        <div>
+                            <div style="height: 80px;">
                                 <br />
                                 <br />
                                 <br />
-                                <div style="height: 61px; width: 400px;">
-                                    <asp:Label ID="NicknameLabel" runat="server" Text="Nickname" Style="font-size: medium"></asp:Label>
+                                <br />
+                                <br />
+                                <br />
+                                <h2 class="auto-style1">Recuperar Contraseña</h2>
+                            </div>
+                            <br />
+                            <br />
+                            <br />
+                            <div style="height: 565px">
+                                <div style="width: 652px; height: 549px; z-index: 1; left: 377px; top: 285px; position: absolute;">
                                     <br />
-                                    <asp:TextBox ID="NicknameTextBox" runat="server" Width="283px"></asp:TextBox>
-                                </div>
-                                <div style="height: 61px; width: 400px;">
-                                    <asp:Label ID="PreguntaLabel" runat="server" Text="Pregunta de Seguridad" Style="font-size: medium"></asp:Label>
-                                    <asp:DropDownList ID="PreguntaDropDownList" runat="server" Width="283px">
-                                    </asp:DropDownList>
-                                </div>
-                                <div style="height: 61px; width: 400px;">
-                                    <asp:Label ID="RespuestaLabel" runat="server" Text="Respuesta" Style="font-size: medium"></asp:Label>
                                     <br />
-                                    <asp:TextBox ID="RespuestaTextBox" runat="server" Width="283px"></asp:TextBox>
-                                </div>
-                                <div style="height: 61px; width: 100px; z-index: 1; top: 231px; position: absolute;">
-                                    <asp:Button ID="RecupearButton" runat="server" Text="Recuperar" OnClick="RecupearButton_Click" />
-                                </div>
-                                <div style="height: 61px; width: 100px; z-index: 1; left: 100px; top: 231px; position: absolute;">
-                                    <asp:Button ID="CancelarButton" runat="server" Text="Cancelar" OnClick="CancelarButton_Click"/>
+                                    <br />
+                                    <div style="height: 61px; width: 400px;">
+                                        <asp:Label ID="NicknameLabel" runat="server" Text="Nickname" Style="font-size: medium"></asp:Label>
+                                        <br />
+                                        <asp:TextBox ID="NicknameTextBox" class="form-control" Height="30px" placheholder="Nombre de usuario" runat="server" Width="283px"></asp:TextBox>
+                                    </div>
+                                    <div style="height: 61px; width: 400px;">
+                                        <asp:Label ID="PreguntaLabel" runat="server" Text="Pregunta de Seguridad" Style="font-size: medium"></asp:Label>
+                                        <asp:DropDownList ID="PreguntaDropDownList" Height="30px" class="form-control" runat="server" Width="283px">
+                                        </asp:DropDownList>
+                                    </div>
+                                    <div style="height: 63px; width: 400px;">
+                                        <asp:Label ID="RespuestaLabel" runat="server" Text="Respuesta" Style="font-size: medium"></asp:Label>
+                                        <br />
+                                        <asp:TextBox ID="RespuestaTextBox" class="form-control" Height="30px" placeholder="Respuesta de recuperación" runat="server" Width="283px"></asp:TextBox>
+                                    </div>
+                                    <div style="height: 61px; width: 100px; z-index: 1; top: 241px; position: absolute;">
+                                        <asp:Button ID="RecupearButton" runat="server" class="btn btn-primary" Text="Recuperar" OnClick="RecupearButton_Click" />
+                                    </div>
+                                    <div style="height: 61px; width: 100px; z-index: 1; left: 100px; top: 241px; position: absolute;">
+                                        <asp:Button ID="CancelarButton" runat="server" class="btn btn-danger" Text="Cancelar" OnClick="CancelarButton_Click" />
+                                    </div>
                                 </div>
                             </div>
+                            <div style="clear: both;"></div>
                         </div>
-                        <div style="clear: both;"></div>
                     </div>
-                </div>
-                <!-- end #page -->
+                    <!-- end #page -->
 
-                <div id="footer-bgcontent">
-                    <div id="footer">
-                        <p>
-                            Copyright  2014 - OCD. All rights reserved.
-                        </p>
+                    <div id="footer-bgcontent">
+                        <div id="footer">
+                            <p>
+                                Copyright  2014 - OCD. All rights reserved.
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <!-- end #footer -->
+                    <!-- end #footer -->
 
+                </div>
             </div>
         </div>
     </form>

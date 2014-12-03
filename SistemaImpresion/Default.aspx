@@ -28,7 +28,7 @@
                     <ul>
                         <li class="current_page_item"><a href="Default.aspx" class="first">Inicio</a></li>
                         <li><a href="Registros.aspx">Registros</a></li>
-                        <li><a href="#">Consultas</a></li>
+                        <li><a href="Consultas.aspx">Consultas</a></li>
                         <li><a href="#">Acerca de</a></li>
                         <li><a href="#">Contactos</a></li>
                     </ul>
@@ -45,7 +45,7 @@
                                 <h2 class="auto-style1">Bienvenido a Print System</h2>
                                 <br /><br /><br /><br />
                                 <ul>
-                                    <p>Info here</p>
+                                    <p class="bg-info">Print System, es un sistema diseñado para llevar a cabo la tarea de realizar los informes de los servicios ofrecido en su empresa.</p>
                                 </ul>
                             </div>
                         </div>

@@ -15,7 +15,9 @@ h1, h2, h3 {
 	color: #000000;
 }
 
-h1 { font-size: 44px; }
+h1 { font-size: 44px;
+    height: 53px;
+}
 
 h2 { font-size: 18px; }
 
@@ -172,6 +174,7 @@ hr { display: none; }
 #page {
 	width: 920px;
 	margin: 0 auto;
+    height: 686px;
 }
 
 #page-bgtop {
@@ -182,7 +185,7 @@ hr { display: none; }
 
 #logo {
 	width: 920px;
-	height: 134px;
+	height: 132px;
 	margin: 0 auto;
 	background: url(images/img04.jpg) no-repeat right top;
 }
@@ -198,6 +201,12 @@ hr { display: none; }
 #logo p {
 	text-transform: lowercase;
 	font-size: 12px;
+    height: 15px;
+    width: 920px;
+    z-index: 1;
+    left: 231px;
+    top: 93px;
+    position: absolute;
 }
 
 #logo h1 {
@@ -402,6 +411,10 @@ hr { display: none; }
 	height: 99px;
 	background: #2f668f;
     width: 956px;
+    z-index: 1;
+    left: 181px;
+    top: 820px;
+    position: absolute;
 }
 
 #footer p {
