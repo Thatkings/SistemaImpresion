@@ -39,7 +39,7 @@
                 
                 <div id="page">
                     <div>
-                        <div style="height: 627px">
+                        <div style="height: 687px">
                             <div style="width: 674px; height: 337px;">
                                 <br /><br /><br /><br /><br /><br />
                                 <h2 class="auto-style1">Bienvenido a Print System</h2>
